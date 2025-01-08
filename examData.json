@@ -4,7 +4,7 @@
       "id": 1,
       "question": "What is the function of AWS edge locations?",
       "options": [
-        "a. Centralize datastorage",
+        "a. Centralize data storage",
         "b. Provide backup data centers",
         "c. Reduce latency by caching content closer to users",
         "d. Enhance user interfaces"
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "question": "In theshared responsibility model, what is AWS responsible for?",
+      "question": "In the shared responsibility model, what is AWS responsible for?",
       "options": [
         "a. Security in the cloud",
         "b. Security of user passwords",
@@ -101,23 +101,18 @@
     },
     {
       "id": 10,
-      "question": "A company wants to reduce thestoragecosts of items that they access regularly but do not need instant access to. Which Amazon S3storageclass best fits this need?",
+      "question": "A company wants to reduce the storage costs of items that they access regularly but do not need instant access to. Which Amazon S3 storage class best fits this need?",
       "options": [
         "a. S3 Standard-Infrequent Access (S3 Standard-IA)",
         "b. S3 Standard",
         "c. S3 on Outposts",
-        "d. S3 Glacier Instant Retrieval",
-        "a. Create IAM users in different AWS Regions.",
-        "b. Create IAM policies based on least privilege principles.",
-        "c. Create IAM Roles and apply them to IAM groups.",
-        "d. Disable password policies and management console access.",
-        "e. Enable multi-factor authentication for users."
+        "d. S3 Glacier Instant Retrieval"
       ],
-      "answer": "e. Enable multi-factor authentication for users."
+      "answer": "a. S3 Standard-Infrequent Access (S3 Standard-IA)"
     },
     {
       "id": 11,
-      "question": "What does an organization need to do in Amazon IAM to enable user access to services being launched in new region?",
+      "question": "What does an organization need to do in Amazon IAM to enable user access to services being launched in a new region?",
       "options": [
         "a. Nothing, IAM is global",
         "b. Create new user accounts in the new region",
@@ -139,7 +134,7 @@
     },
     {
       "id": 13,
-      "question": "A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data betweenstorageclasses without using manual processes?",
+      "question": "A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data between storage classes without using manual processes?",
       "options": [
         "a. Amazon S3 bucket policy",
         "b. Amazon S3 lifecycle policy",
@@ -161,7 +156,7 @@
     },
     {
       "id": 15,
-      "question": "A research company needs to provide access to a group of employees from different departments to manage the customersupportportal that’s hosted on AWS. Which AWS Identity and Access Management (IAM) identity type would be most suitable for this scenario?",
+      "question": "A research company needs to provide access to a group of employees from different departments to manage the customer support portal that’s hosted on AWS. Which AWS Identity and Access Management (IAM) identity type would be most suitable for this scenario?",
       "options": [
         "a. IAM user",
         "b. IAM role",
@@ -172,19 +167,14 @@
     },
     {
       "id": 16,
-      "question": "A Cloud Practitioner needs to decide which Amazon S3storageclass to use for storing copies of backup data. Thestoragemust provide rapid access when needed but resiliency can be low. Whichstorageclass is most suitable?",
+      "question": "A Cloud Practitioner needs to decide which Amazon S3 storage class to use for storing copies of backup data. The storage must provide rapid access when needed but resiliency can be low. Which storage class is most suitable?",
       "options": [
         "a. Amazon S3 Standard",
         "b. Amazon S3 One Zone-IA",
         "c. Amazon S3 Glacier Deep Archive",
-        "d. Amazon S3 Glacier",
-        "a. An access key ID and secret access key",
-        "b. A password for access to the management console",
-        "c. An SSL/TLS certificate",
-        "d. A key pair",
-        "e. A password for logging into Linux"
+        "d. Amazon S3 Glacier"
       ],
-      "answer": "b. A password for access to the management console"
+      "answer": "b. Amazon S3 One Zone-IA"
     },
     {
       "id": 17,
@@ -193,14 +183,9 @@
         "a. Identity policy",
         "b. Permission boundaries",
         "c. Resource policy",
-        "d. Service control policy (SCP)",
-        "a. Network ACLs",
-        "b. Roles",
-        "c. Security groups",
-        "d. Key pairs",
-        "e. Access policies"
+        "d. Service control policy (SCP)"
       ],
-      "answer": "e. Access policies"
+      "answer": "a. Identity policy"
     },
     {
       "id": 18,
@@ -231,14 +216,9 @@
         "a. IAM group",
         "b. IAM user",
         "c. IAM admin user",
-        "d. IAM role",
-        "a. Message queue",
-        "b. Install an operating system",
-        "c. In-memory data cache",
-        "d. Host a static website",
-        "e. Media hosting"
+        "d. IAM role"
       ],
-      "answer": "e. Media hosting"
+      "answer": "d. IAM role"
     },
     {
       "id": 21,
@@ -253,18 +233,14 @@
     },
     {
       "id": 22,
-      "question": "A developer wants to store 10 years of data logs cost efficiently. Which service cansupportthis workload?",
+      "question": "A developer wants to store 10 years of data logs cost efficiently. Which service can support this workload?",
       "options": [
         "a. Amazon Elastic File System (Amazon EFS)",
         "b. Amazon Elastic Block Store (Amazon EBS)",
         "c. Amazon FSx",
-        "d. Amazon S3",
-        "a. Security policies",
-        "b. Network keys",
-        "c. HTML files",
-        "d. Image files"
+        "d. Amazon S3"
       ],
-      "answer": "d. Image files"
+      "answer": "d. Amazon S3"
     },
     {
       "id": 23,
@@ -323,7 +299,7 @@
     },
     {
       "id": 34,
-      "question": "Which AWS service provides multi-region data replication for a NoSQLdatabase?",
+      "question": "Which AWS service provides multi-region data replication for a NoSQL database?",
       "options": [
         "a. Amazon DynamoDB with global tables",
         "b. Amazon RDS with Multi-AZ",
@@ -339,18 +315,13 @@
         "a. VPC Peering",
         "b. Security Groups",
         "c. VPC Flow Logs",
-        "d. Network Access Analyzer",
-        "a. Place the application servers in a public subnet.",
-        "b. Place the application servers in a private subnet.",
-        "c. Configure a NAT gateway in a public subnet.",
-        "d. Attach an Elastic IP to the application servers.",
-        "e. Set up an internet gateway in a private subnet."
+        "d. Network Access Analyzer"
       ],
-      "answer": "c. Configure a NAT gateway in a public subnet."
+      "answer": "c. VPC Flow Logs"
     },
     {
       "id": 36,
-      "question": "A company plans to host adatabaseserver in a VPC and wants to isolate it from the internet. What configuration ensures this server remains private?",
+      "question": "A company plans to host a database server in a VPC and wants to isolate it from the internet. What configuration ensures this server remains private?",
       "options": [
         "a. Deploy the server in a public subnet with a security group allowing inbound traffic",
         "b. Deploy the server in a private subnet",
@@ -372,7 +343,7 @@
     },
     {
       "id": 38,
-      "question": "Whatdatabaseoption is best for latency-sensitive applications requiring in-memorystorage?",
+      "question": "What database option is best for latency-sensitive applications requiring in-memory storage?",
       "options": [
         "a. Amazon ElastiCache",
         "b. Amazon RDS",
@@ -449,7 +420,7 @@
     },
     {
       "id": 45,
-      "question": "A development team needs an automation tool that integrates with their existing IDE to create infrastructure code with best practices. Which AWS service cansupportthis?",
+      "question": "A development team needs an automation tool that integrates with their existing IDE to create infrastructure code with best practices. Which AWS service can support this?",
       "options": [
         "a. Amazon CodeWhisperer",
         "b. AWS CodeCommit",
@@ -460,7 +431,7 @@
     },
     {
       "id": 46,
-      "question": "You need a CloudFormation template tosupportboth production and development environments. Production spans two Availability Zones, while development is limited to one. Which section of the CloudFormation template can accomplish this?",
+      "question": "You need a CloudFormation template to support both production and development environments. Production spans two Availability Zones, while development is limited to one. Which section of the CloudFormation template can accomplish this?",
       "options": [
         "a. Conditions",
         "b. Resources",
@@ -493,14 +464,14 @@
     },
     {
       "id": 49,
-      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQLdatabasein a customer’s virtual private cloud (VPC) to store data. Currently the function times out with “too manydatabaseconnections” error. Which architecture option would fix this problem?",
+      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently, the function times out with “too many database connections” error. Which architecture option would fix this problem?",
       "options": [
         "a. Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service.",
-        "b. Ensure the that Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy.",
-        "c. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDSdatabase.",
+        "b. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy.",
+        "c. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database.",
         "d. Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface."
       ],
-      "answer": "b. Ensure the that Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
+      "answer": "b. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
     },
     {
       "id": 50,
@@ -515,14 +486,14 @@
     },
     {
       "id": 51,
-      "question": "A company processes massive streams of data in real-time from IoT devices. The processed data is used for real-time dashboards andanalytics. Which AWS service would be the most suitable for this requirement?",
+      "question": "A company processes massive streams of data in real-time from IoT devices. The processed data is used for real-time dashboards and analytics. Which AWS service would be the most suitable for this requirement?",
       "options": [
         "a. Amazon Redshift",
         "b. Amazon EMR",
         "c. AWS Glue",
-        "d. Amazon Kinesis DataAnalytics"
+        "d. Amazon Kinesis Data Analytics"
       ],
-      "answer": "d. Amazon Kinesis DataAnalytics"
+      "answer": "d. Amazon Kinesis Data Analytics"
     },
     {
       "id": 52,
@@ -537,24 +508,14 @@
     },
     {
       "id": 53,
-      "question": "A company needs to store application error logs for later analysis. The raw data must be preserved, and the data needs to be accessed by more than one team with their specific analysis tools. Which AWSstorageservice would be the MOST cost effective?",
+      "question": "A company needs to store application error logs for later analysis. The raw data must be preserved, and the data needs to be accessed by more than one team with their specific analysis tools. Which AWS storage service would be the MOST cost-effective?",
       "options": [
         "a. OpenSearch",
         "b. Amazon Kinesis Data Streams",
         "c. Amazon Redshift",
-        "d. Amazon S3 as a data lake",
-        "a. Express Workflows are charged based on the number of state transitions.",
-        "b. Standard Workflows offer synchronous and asynchronous processing.",
-        "c. Standard Workflows offer an exactly-once run model for workflows.",
-        "d. Standard Workflows are charged based on the number of requests for the workflow and its duration.",
-        "e. Express Workflows offer synchronous and asynchronous workflows.",
-        "a. Application Load Balancer invokes an application running on Amazon EC2 instances to store data on an Amazon DynamoDB table.",
-        "b. Application Load Balancer invokes an application running on Amazon Elastic Kubernetes Service (Amazon EKS) which stores data on an Amazon DynamoDB table.",
-        "c. Amazon Kinesis invokes an AWS Lambda function and stores data on Amazon DynamoDB.",
-        "d. Application Load Balancer invokes an application running on Amazon Elastic Container Service (Amazon ECS) which stores data on an Amazon Aurora Serverless cluster.",
-        "e. Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer."
+        "d. Amazon S3 as a data lake"
       ],
-      "answer": "e. Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer."
+      "answer": "d. Amazon S3 as a data lake"
     },
     {
       "id": 54,
@@ -569,19 +530,14 @@
     },
     {
       "id": 55,
-      "question": "A solutions architect is tasked to build a production scale application using containers as thecomputesolution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
+      "question": "A solutions architect is tasked to build a production-scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
       "options": [
         "a. Create a PodSpec and use it to launch one container on Amazon EC2 instance nodes. Add an Application Load Balancer to route traffic to the container.",
         "b. Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers.",
         "c. Create a service definition. Run the service to deploy containers on Amazon EC2 instance nodes.",
-        "d. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers.",
-        "a. Amazon CloudFront edge cache",
-        "b. Amazon Elastic Container Service (Amazon ECS) cluster",
-        "c. AWS customer virtual private cloud (VPC)",
-        "d. Amazon CloudFront regional edge cache",
-        "e. Lambda service virtual private cloud (VPC)"
+        "d. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
       ],
-      "answer": "e. Lambda service virtual private cloud (VPC)"
+      "answer": "d. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
     },
     {
       "id": 56,
@@ -621,8 +577,8 @@
       "question": "What is the primary benefit of using Amazon CloudFront to deliver static content for a website?",
       "options": [
         "a. Reduced latency for end users",
-        "b. Increasedstoragecapacity",
-        "c. Automateddatabasebackups",
+        "b. Increased storage capacity",
+        "c. Automated database backups",
         "d. Enhanced user authentication"
       ],
       "answer": "a. Reduced latency for end users"
@@ -667,14 +623,9 @@
         "a. Amazon MQ",
         "b. Amazon SNS",
         "c. Amazon SQS",
-        "d. AWS Lambda",
-        "a. Configure a NAT instance in a private subnet.",
-        "b. Configure a NAT gateway in a public subnet.",
-        "c. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the",
-        "d. Define a custom route table with a route to the internet gateway for internet traffic and associate it with",
-        "e. Assign Elastic IP addresses to the EC2 instances"
+        "d. AWS Lambda"
       ],
-      "answer": "c. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the"
+      "answer": "c. Amazon SQS"
     },
     {
       "id": 64,
@@ -700,7 +651,7 @@
     },
     {
       "id": 66,
-      "question": "A national bank has recently migrated to the cloud, but the bank’s executives are not confident in their expertise. They would like a TAM to help them keep their cloud optimized. Which level of AWSSupportshould you select?",
+      "question": "A national bank has recently migrated to the cloud, but the bank’s executives are not confident in their expertise. They would like a TAM to help them keep their cloud optimized. Which level of AWS Support should you select?",
       "options": [
         "a. Free-Tier",
         "b. Developer",
@@ -738,9 +689,9 @@
         "a. To cache real-time sensor data",
         "b. To cache images and static files for global distribution",
         "c. To improve availability for globally distributed applications",
-        "d. To cache frequently accesseddatabasequeries"
+        "d. To cache frequently accessed database queries"
       ],
-      "answer": "d. To cache frequently accesseddatabasequeries"
+      "answer": "d. To cache frequently accessed database queries"
     },
     {
       "id": 70,
@@ -749,14 +700,9 @@
         "a. EC2 Spot Fleet",
         "b. Manual scaling",
         "c. Horizontal scaling with EC2 Auto Scaling groups",
-        "d. Vertical scaling",
-        "a. Use server-side encryption with Amazon S3 managed encryption keys (SSE-S3).",
-        "b. Use server-side encryption with AWS KMS managed encryption keys (SSE-KMS).",
-        "c. Use server-side encryption with customer-provided encryption keys (SSE-C).",
-        "d. Use client-side encryption to provide at-rest encryption.",
-        "e. Use an AWS Lambda function invoked by Amazon S3 events to encrypt the data using the customer’s"
+        "d. Vertical scaling"
       ],
-      "answer": "d. Use client-side encryption to provide at-rest encryption."
+      "answer": "c. Horizontal scaling with EC2 Auto Scaling groups"
     },
     {
       "id": 71,
@@ -782,7 +728,7 @@
     },
     {
       "id": 73,
-      "question": "A company needs a relationaldatabasethat can automatically scale with a variable workload and requires minimal management. Which solution best fits these requirements?",
+      "question": "A company needs a relational database that can automatically scale with a variable workload and requires minimal management. Which solution best fits these requirements?",
       "options": [
         "a. Amazon RDS",
         "b. Amazon Aurora Serverless",
@@ -809,19 +755,9 @@
         "a. Change Sets",
         "b. Rollback Triggers",
         "c. Drift Detection",
-        "d. StackSets",
-        "a. Place the application servers in a public subnet.",
-        "b. Place the application servers in a private subnet.",
-        "c. Configure a NAT gateway in a public subnet.",
-        "d. Attach an Elastic IP to the application servers.",
-        "e. Set up an internet gateway in a private subnet.",
-        "a. Amazon CloudFront regional edge cache",
-        "b. Amazon CloudFront edge cache",
-        "c. Lambda service virtual private cloud (VPC)",
-        "d. Amazon Elastic Container Service (Amazon ECS) cluster",
-        "e. AWS customer virtual private cloud (VPC)"
+        "d. StackSets"
       ],
-      "answer": "c. Lambda service virtual private cloud (VPC)"
+      "answer": "a. Change Sets"
     },
     {
       "id": 83,
@@ -840,7 +776,7 @@
       "options": [
         "a. Use tightly coupled components",
         "b. Build solutions manually",
-        "c. Always choose the cheapestdatabase",
+        "c. Always choose the cheapest database",
         "d. Treat resources as disposable"
       ],
       "answer": "d. Treat resources as disposable"
@@ -869,7 +805,7 @@
     },
     {
       "id": 92,
-      "question": "An EC2 instance in a private subnet needs to communicate with an Amazon RDSdatabasein another VPC. What is the simplest solution to enable secure communication?",
+      "question": "An EC2 instance in a private subnet needs to communicate with an Amazon RDS database in another VPC. What is the simplest solution to enable secure communication?",
       "options": [
         "a. Configure a NAT gateway",
         "b. Set up a VPN connection between the VPCs",
@@ -902,7 +838,7 @@
     },
     {
       "id": 96,
-      "question": "Whichdatabaseservice should you recommend for an application that requires millisecond response times and supports unstructured key-value data?",
+      "question": "Which database service should you recommend for an application that requires millisecond response times and supports unstructured key-value data?",
       "options": [
         "a. Amazon RDS",
         "b. Amazon Aurora",
@@ -924,29 +860,29 @@
     },
     {
       "id": 120,
-      "question": "as cost-effectively as possible.What should a solutions architect do to accomplish this?",
+      "question": "A company wants to handle increased workload during periods of high demand as cost-effectively as possible. What should a solutions architect do to accomplish this?",
       "options": [
         "a. Deploy Spot Instances during periods of high demand.",
         "b. Deploy On-Demand Instances during periods of high demand.",
-        "c. Increase the EC2 instance size in the EC2 reservation tosupportthe increased workload.",
+        "c. Increase the EC2 instance size in the EC2 reservation to support the increased workload.",
         "d. Create a second EC2 reservation for additional instances."
       ],
       "answer": "b. Deploy On-Demand Instances during periods of high demand."
     },
     {
       "id": 121,
-      "question": "fails and becomes unreachable.Which approach will meet these requirements?",
+      "question": "A company wants to ensure that a private IP address remains associated with an application even if the primary EC2 instance fails and becomes unreachable. Which approach will meet these requirements?",
       "options": [
-        "a. Deploy an Application Load Balancer configured with a listener for the private IP address and register the",
-        "b. Configure a custom DHCP option set. Configure DHCP to assign the same private IP address to the",
-        "c. Associate an Elastic IP address with the network interface of the primary EC2 instance. Disassociate the",
+        "a. Deploy an Application Load Balancer configured with a listener for the private IP address and register the EC2 instance.",
+        "b. Configure a custom DHCP option set. Configure DHCP to assign the same private IP address to the EC2 instance.",
+        "c. Associate an Elastic IP address with the network interface of the primary EC2 instance. Disassociate the Elastic IP address if the instance fails.",
         "d. Attach a secondary elastic network interface to the EC2 instance configured with the private IP address."
       ],
       "answer": "d. Attach a secondary elastic network interface to the EC2 instance configured with the private IP address."
     },
     {
       "id": 124,
-      "question": "A company wants to reduce latency for read-heavydatabasequeries. Which caching strategy should they implement in Amazon ElastiCache?",
+      "question": "A company wants to reduce latency for read-heavy database queries. Which caching strategy should they implement in Amazon ElastiCache?",
       "options": [
         "a. TTL-based caching",
         "b. Edge caching",
@@ -979,7 +915,7 @@
     },
     {
       "id": 127,
-      "question": "A company needs to cache frequently accessed session data to reducedatabaseload. Which caching strategy is most appropriate?",
+      "question": "A company needs to cache frequently accessed session data to reduce database load. Which caching strategy is most appropriate?",
       "options": [
         "a. Edge caching with Amazon CloudFront",
         "b. Write-through caching with ElastiCache",
@@ -993,7 +929,7 @@
       "question": "Which statement below is incorrect in relation to Security Groups?",
       "options": [
         "a. They evaluate all rules before making a decision",
-        "b. Theysupportallow rules only",
+        "b. They support allow rules only",
         "c. They are stateless",
         "d. They operate at the instance level"
       ],
@@ -1001,9 +937,9 @@
     },
     {
       "id": 129,
-      "question": "Your ecommerce application is experiencing high read traffic on an Amazon RDSdatabase, impacting performance. Which solution offers the most cost-effective way to handle increased read traffic?",
+      "question": "Your ecommerce application is experiencing high read traffic on an Amazon RDS database, impacting performance. Which solution offers the most cost-effective way to handle increased read traffic?",
       "options": [
-        "a. Place the RDSdatabasebehind a load balancer",
+        "a. Place the RDS database behind a load balancer",
         "b. Use Amazon CloudFront to cache RDS queries",
         "c. Enable Multi-AZ for Amazon RDS",
         "d. Configure Amazon ElastiCache to cache frequent queries"
@@ -1063,7 +999,7 @@
         "c. Security of data encryption",
         "d. Security in the cloud"
       ],
-      "answer": "Security of the cloud"
+      "answer": "b. Security of the cloud"
     },
     {
       "id": 138,
@@ -1074,7 +1010,7 @@
         "c. Sustainability",
         "d. Security"
       ],
-      "answer": "Performance Efficiency"
+      "answer": "a. Performance Efficiency"
     },
     {
       "id": 142,
@@ -1085,7 +1021,7 @@
         "c. Amazon DynamoDB",
         "d. Amazon Aurora"
       ],
-      "answer": "Amazon ElastiCache"
+      "answer": "a. Amazon ElastiCache"
     },
     {
       "id": 145,
@@ -1096,7 +1032,7 @@
         "c. Use a load balancer to distribute across AZs",
         "d. Rely on the AWS private network between AZs"
       ],
-      "answer": "Rely on the AWS private network between AZs"
+      "answer": "d. Rely on the AWS private network between AZs"
     },
     {
       "id": 148,
@@ -1107,7 +1043,7 @@
         "c. Amazon DynamoDB",
         "d. Amazon Redshift"
       ],
-      "answer": "Amazon Aurora Serverless"
+      "answer": "b. Amazon Aurora Serverless"
     },
     {
       "id": 150,
@@ -1118,7 +1054,7 @@
         "c. Amazon Aurora",
         "d. Amazon DynamoDB"
       ],
-      "answer": "Amazon Neptune"
+      "answer": "b. Amazon Neptune"
     },
     {
       "id": 151,
@@ -1129,7 +1065,7 @@
         "c. AWS Config",
         "d. AWS CloudTrail"
       ],
-      "answer": "Amazon CloudWatch Logs"
+      "answer": "b. Amazon CloudWatch Logs"
     },
     {
       "id": 157,
@@ -1140,7 +1076,7 @@
         "c. Amazon CodeWhisperer",
         "d. AWS CloudFormation"
       ],
-      "answer": "Amazon CodeWhisperer"
+      "answer": "c. Amazon CodeWhisperer"
     },
     {
       "id": 161,
@@ -1151,7 +1087,7 @@
         "c. Amazon Kinesis Data Analytics",
         "d. AWS Glue"
       ],
-      "answer": "Amazon Kinesis Data Analytics"
+      "answer": "c. Amazon Kinesis Data Analytics"
     },
     {
       "id": 163,
@@ -1160,55 +1096,20 @@
         "a. Amazon Redshift",
         "b. OpenSearch",
         "c. Amazon S3 as a data lake",
-        "d. Amazon Kinesis Data Streams",
-        "a. Standard Workflows offer an exactly-once run model for workflows.",
-        "b. Standard Workflows offer synchronous and asynchronous processing.",
-        "c. Standard Workflows are charged based on the number of requests for the workflow and its duration.",
-        "d. Express Workflows are charged based on the number of state transitions.",
-        "e. Express Workflows offer synchronous and asynchronous workflows.",
-        "a. Standard Workflows offer an exactly-once run model for workflows.",
-        "e. Express Workflows offer synchronous and asynchronous workflows.",
-        "a. Amazon Kinesis invokes an AWS Lambda function and stores data on Amazon DynamoDB.",
-        "b. Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer.",
-        "c. Application Load Balancer invokes an application running on Amazon EC2 instances to store data on an Amazon DynamoDB table.",
-        "d. Application Load Balancer invokes an application running on Amazon Elastic Container Service (Amazon ECS) which stores data on an Amazon Aurora Serverless cluster.",
-        "e. Application Load Balancer invokes an application running on Amazon Elastic Kubernetes Service (Amazon EKS) which stores data on an Amazon DynamoDB table.",
-        "a. Amazon Kinesis invokes an AWS Lambda function and stores data on Amazon DynamoDB.",
-        "b. Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer."
+        "d. Amazon Kinesis Data Streams"
       ],
-      "answer": "Amazon S3 as a data lake"
+      "answer": "c. Amazon S3 as a data lake"
     },
     {
       "id": 165,
-      "question": "A solutions architect is tasked to build a production scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
+      "question": "A solutions architect is tasked to build a production-scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
       "options": [
         "a. Create a PodSpec and use it to launch one container on Amazon EC2 instance nodes. Add an Application Load Balancer to route traffic to the container.",
         "b. Create a service definition. Run the service to deploy containers on Amazon EC2 instance nodes.",
         "c. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers.",
-        "d. Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers.",
-        "a. Amazon CloudFront regional edge cache",
-        "b. Amazon CloudFront edge cache",
-        "c. Lambda service virtual private cloud (VPC)",
-        "d. AWS customer virtual private cloud (VPC)",
-        "e. Amazon Elastic Container Service (Amazon ECS) cluster",
-        "c. Lambda service virtual private cloud (VPC)",
-        "a. Amazon CloudFront regional edge cache",
-        "a. Network ACLs",
-        "b. Key pairs",
-        "c. Roles",
-        "d. Access policies",
-        "e. Security groups",
-        "c. Roles",
-        "d. Access policies",
-        "a. Create IAM policies based on least privilege principles.",
-        "b. Create IAM Roles and apply them to IAM groups.",
-        "c. Enable multi-factor authentication for users.",
-        "d. Disable password policies and management console access.",
-        "e. Create IAM users in different AWS Regions.",
-        "a. Create IAM policies based on least privilege principles.",
-        "c. Enable multi-factor authentication for users."
+        "d. Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers."
       ],
-      "answer": "Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
+      "answer": "c. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
     },
     {
       "id": 169,
@@ -1219,7 +1120,7 @@
         "c. Amazon S3 Glacier Deep Archive",
         "d. Amazon S3 Glacier"
       ],
-      "answer": "Amazon S3 One Zone-IA"
+      "answer": "a. Amazon S3 One Zone-IA"
     },
     {
       "id": 170,
@@ -1228,14 +1129,9 @@
         "a. Enable global mode in IAM to provision the required access",
         "b. Create new user accounts in the new region",
         "c. Nothing, IAM is global",
-        "d. Update the user accounts to allow access from another region",
-        "a. Network ACLs",
-        "b. Security groups",
-        "c. Roles",
-        "d. Key pairs",
-        "e. Access policies"
+        "d. Update the user accounts to allow access from another region"
       ],
-      "answer": "Nothing, IAM is global"
+      "answer": "c. Nothing, IAM is global"
     },
     {
       "id": 176,
@@ -1246,7 +1142,7 @@
         "c. IAM role",
         "d. IAM user with only CLI access"
       ],
-      "answer": "IAM group"
+      "answer": "b. IAM group"
     },
     {
       "id": 177,
@@ -1255,695 +1151,9 @@
         "a. S3 Glacier Instant Retrieval",
         "b. S3 on Outposts",
         "c. S3 Standard",
-        "d. S3 Standard-Infrequent Access (S3 Standard-IA)",
-        "a. HTML files",
-        "b. Network keys",
-        "c. Image files",
-        "d. Security policies"
+        "d. S3 Standard-Infrequent Access (S3 Standard-IA)"
       ],
-      "answer": "S3 Standard-Infrequent Access (S3 Standard-IA)"
-    },
-    {
-      "id": 180,
-      "question": "A developer wants to store 10 years of data logs cost-efficiently. Which service can support this workload?",
-      "options": [
-        "a. Amazon Elastic File System (Amazon EFS)",
-        "b. Amazon S3",
-        "c. Amazon Elastic Block Store (Amazon EBS)",
-        "d. Amazon FSx"
-      ],
-      "answer": "Amazon S3"
-    },
-    {
-      "id": 210,
-      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently the function times out with a “too many database connections” error. Which architecture option would fix this problem?",
-      "options": [
-        "a. Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service.",
-        "b. Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface.",
-        "c. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database.",
-        "d. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-      ],
-      "answer": "d. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-    },
-    {
-      "id": 220,
-      "question": "A developer wants to store 10 years of data logs cost efficiently. Which service can support this workload?",
-      "options": [
-        "a. Network ACLs",
-        "b. Key pairs",
-        "c. Roles",
-        "d. Access policies",
-        "e. Security groups",
-        "c. Roles",
-        "d. Access policies",
-        "a. Create IAM policies based on least privilege principles.",
-        "b. Create IAM Roles and apply them to IAM groups.",
-        "c. Enable multi-factor authentication for users.",
-        "d. Disable password policies and management console access.",
-        "e. Create IAM users in different AWS Regions.",
-        "a. Create IAM policies based on least privilege principles.",
-        "c. Enable multi-factor authentication for users."
-      ],
-      "answer": "Amazon S3"
-    },
-    {
-      "id": 224,
-      "question": "A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data between storage classes without using manual processes?",
-      "options": [],
-      "answer": "Amazon S3 lifecycle policy"
-    },
-    {
-      "id": 235,
-      "question": "Your ecommerce application is experiencing high read traffic on an Amazon RDS database, impacting performance. Which solution offers the most cost-effective way to handle increased read traffic?",
-      "options": [
-        "a. Place the RDS database behind a load balancer",
-        "b. Configure Amazon ElastiCache to cache frequent queries",
-        "c. Enable Multi-AZ for Amazon RDS",
-        "d. Use Amazon CloudFront to cache RDS queries"
-      ],
-      "answer": "b. Configure Amazon ElastiCache to cache frequent queries"
-    },
-    {
-      "id": 236,
-      "question": "What is the most efficient way to establish network connectivity from on-premises to multiple VPCs in different AWS Regions?",
-      "options": [
-        "a. Use an AWS Transit Gateway",
-        "b. Use AWS Direct Connect",
-        "c. Use AWS Client VPN",
-        "d. Use AWS VPN"
-      ],
-      "answer": "a. Use an AWS Transit Gateway"
-    },
-    {
-      "id": 237,
-      "question": "A company's application hosted on Amazon EC2 instances needs to access an Amazon S3 bucket. Due to data sensitivity, traffic cannot traverse the internet. How should a solutions architect configure access?",
-      "options": [
-        "a. Configure AWS PrivateLink between the EC2 instance and the S3 bucket.",
-        "b. Configure a VPC gateway endpoint for Amazon S3 in the VPC.",
-        "c. Create a private hosted zone using Amazon Route 53.",
-        "d. Set up a site-to-site VPN connection between the VPC and the S3 bucket."
-      ],
-      "answer": "b. Configure a VPC gateway endpoint for Amazon S3 in the VPC."
-    },
-    {
-      "id": 238,
-      "question": "An analytics company is planning to offer a web analytics service to its users. The service will require that the users’ webpages include a JavaScript script that makes authenticated GET requests to the company’s Amazon S3 bucket. What must a solutions architect do to ensure that the script will successfully execute?",
-      "options": [
-        "a. Configure an S3 bucket policy to allow public execute privileges.",
-        "b. Enable S3 Versioning on the S3 bucket.",
-        "c. Provide the users with a signed URL for the script.",
-        "d. Enable cross-origin resource sharing (CORS) on the S3 bucket."
-      ],
-      "answer": "d. Enable cross-origin resource sharing (CORS) on the S3 bucket."
-    },
-    {
-      "id": 239,
-      "question": "Which caching strategy would be effective for a workload with frequent updates where data consistency is critical?",
-      "options": [
-        "a. Lazy loading",
-        "b. TTL-based caching",
-        "c. Edge caching",
-        "d. Write-through caching"
-      ],
-      "answer": "d. Write-through caching"
-    },
-    {
-      "id": 242,
-      "question": "An ecommerce site uses Amazon CloudFront to serve static content, but customers in certain regions report high latency. What can be done to improve the experience?",
-      "options": [
-        "a. Increase CloudFront TTL values",
-        "b. Enable additional CloudFront edge locations in affected regions",
-        "c. Use an RDS Read Replica in each region",
-        "d. Enable ElastiCache to cache dynamic content",
-        "a. Amazon Connect",
-        "b. AWS Direct Connect",
-        "c. Amazon CloudHSM",
-        "d. AWS Managed VPN",
-        "e. AWS Managed Services",
-        "d. AWS Managed VPN"
-      ],
-      "answer": "b. Enable additional CloudFront edge locations in affected regions"
-    },
-    {
-      "id": 243,
-      "question": "An application requires immediate notification when a new message is added to an Amazon SQS queue. Which AWS service can provide this functionality?",
-      "options": [
-        "a. Amazon CloudWatch",
-        "b. AWS Lambda",
-        "c. Amazon SNS",
-        "d. Amazon RDS"
-      ],
-      "answer": "c. Amazon SNS"
-    },
-    {
-      "id": 245,
-      "question": "What is the primary use case for Amazon MQ in a decoupled architecture?",
-      "options": [
-        "a. To run batch processing",
-        "b. For real-time notifications",
-        "c. To manage distributed databases",
-        "d. For hybrid cloud environments"
-      ],
-      "answer": "d. For hybrid cloud environments"
-    },
-    {
-      "id": 246,
-      "question": "Which SQS feature should be enabled to ensure that a message is delivered exactly once and in the exact order it was sent?",
-      "options": [
-        "a. Dead-letter queue",
-        "b. Message visibility timeout",
-        "c. FIFO queue",
-        "d. Standard queue"
-      ],
-      "answer": "c. FIFO queue"
-    },
-    {
-      "id": 248,
-      "question": "After experiencing a distributed denial of service (DDoS) attack, your company wants to set up an AWS service to prevent future attacks. Which service would you recommend?",
-      "options": [
-        "a. Amazon Fraud Detector",
-        "b. AWS Auto Scaling",
-        "c. AWS Shield",
-        "d. AWS Config"
-      ],
-      "answer": "c. AWS Shield"
-    },
-    {
-      "id": 252,
-      "question": "Your VPC contains several EC2 instances in a public subnet. You want to ensure only HTTPS traffic reaches these instances. Which AWS feature should you use to enforce this rule?",
-      "options": [
-        "a. Network ACLs",
-        "b. Security Groups",
-        "c. NAT Gateway",
-        "d. Route Table"
-      ],
-      "answer": "b. Security Groups"
-    },
-    {
-      "id": 258,
-      "question": "Which AWS service provides multi-region data replication for a NoSQL database?",
-      "options": [
-        "a. Amazon DynamoDB with global tables",
-        "b. Amazon RDS with Multi-AZ",
-        "c. Amazon S3",
-        "d. Amazon ElastiCache"
-      ],
-      "answer": "a. Amazon DynamoDB with global tables"
-    },
-    {
-      "id": 260,
-      "question": "A web application is expected to receive high traffic fluctuations. Which feature of Amazon EC2 should be used to automatically adjust the number of instances based on demand?",
-      "options": [
-        "a. Elastic Load Balancing",
-        "b. Auto Scaling",
-        "c. EC2 Spot Instances",
-        "d. Amazon Route 53"
-      ],
-      "answer": "b. Auto Scaling"
-    },
-    {
-      "id": 264,
-      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently the function times out with “too many database connections” error. Which architecture option would fix this problem?",
-      "options": [
-        "a. Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service.",
-        "b. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database.",
-        "c. Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface.",
-        "d. Ensure the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-      ],
-      "answer": "d. Ensure the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-    },
-    {
-      "id": 398,
-      "question": "What is the main purpose of the AWS Well-Architected Tool?",
-      "options": [
-        "a. To manage cloud pricing",
-        "b. To create cloud backup solutions",
-        "c. To design cloud user interfaces",
-        "d. To review and measure cloud architectures"
-      ],
-      "answer": "d. To review and measure cloud architectures"
-    },
-    {
-      "id": 403,
-      "question": "A company plans to host a database server in a VPC and wants to isolate it from the internet. What configuration ensures this server remains private?",
-      "options": [
-        "a. Deploy the server in a public subnet with a security group allowing inbound traffic",
-        "b. Deploy the server in a private subnet",
-        "c. Attach an Elastic IP to the server",
-        "d. Add an internet gateway to the subnet"
-      ],
-      "answer": "b. Deploy the server in a private subnet"
-    },
-    {
-      "id": 404,
-      "question": "An administrator needs secure access to manage instances in a private subnet from an on-premises network. Which solution should they implement?",
-      "options": [
-        "a. Use a VPN connection",
-        "b. Configure an internet gateway",
-        "c. Set up a bastion host in a public subnet",
-        "d. Assign Elastic IPs to the private instances"
-      ],
-      "answer": "c. Set up a bastion host in a public subnet"
-    },
-    {
-      "id": 421,
-      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently, the function times out with a \"too many database connections\" error. Which architecture option would fix this problem?",
-      "options": [
-        "a. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy.",
-        "b. Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service.",
-        "c. Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface.",
-        "d. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database."
-      ],
-      "answer": "a. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-    },
-    {
-      "id": 427,
-      "question": "A solutions architect is tasked to build a production-scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
-      "options": [
-        "a. Create a service definition. Run the service to deploy containers on Amazon EC2 instance nodes.",
-        "b. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers.",
-        "c. Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers.",
-        "d. Create a PodSpec and use it to launch one container on Amazon EC2 instance nodes. Add an Application Load Balancer to route traffic to the container.",
-        "a. Lambda service virtual private cloud (VPC)",
-        "b. Amazon CloudFront regional edge cache",
-        "c. Amazon CloudFront edge cache",
-        "d. AWS customer virtual private cloud (VPC)",
-        "e. Amazon Elastic Container Service (Amazon ECS) cluster"
-      ],
-      "answer": "b. Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
-    },
-    {
-      "id": 428,
-      "question": "1. In the AWS Identity and Access Management (IAM) policy evaluation process, which best describes the order of steps that are taken when determining whether a principal is allowed or denied access to a specific resource?",
-      "options": [
-        "a. Check explicit deny, check explicit allow, apply implicit deny if there are no explicit rules",
-        "b. Check explicit allow, check deny",
-        "c. Check for absence of rules, check explicit allow, check explicit deny",
-        "d. Check explicit allow, check explicit deny, check for absence of rules",
-        "a. Key pairs",
-        "b. Security groups",
-        "c. Network ACLs",
-        "d. Access policies",
-        "e. Roles"
-      ],
-      "answer": "d. Access policies, e. Roles"
-    },
-    {
-      "id": 429,
-      "question": "3. A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data between storage classes without using manual processes?",
-      "options": [
-        "a. Amazon S3 Transfer Acceleration",
-        "b. AWS Transfer Family",
-        "c. Amazon S3 lifecycle policy",
-        "d. Amazon S3 bucket policy"
-      ],
-      "answer": "c. Amazon S3 lifecycle policy"
-    },
-    {
-      "id": 430,
-      "question": "4. A developer wants to grant secure long-term access to an S3 bucket across several AWS accounts. Which option can they use to grant secure long-term access to this S3 bucket?",
-      "options": [
-        "a. Bucket policy",
-        "b. Block Public Access feature",
-        "c. Preassigned URLs",
-        "d. Client-side encryption"
-      ],
-      "answer": "a. Bucket policy"
-    },
-    {
-      "id": 431,
-      "question": "5. A Cloud Practitioner needs to decide which Amazon S3 storage class to use for storing copies of backup data. The storage must provide rapid access when needed, but resiliency can be low. Which storage class is most suitable?",
-      "options": [
-        "a. Amazon S3 One Zone-IA",
-        "b. Amazon S3 Glacier Deep Archive",
-        "c. Amazon S3 Standard",
-        "d. Amazon S3 Glacier"
-      ],
-      "answer": "a. Amazon S3 One Zone-IA"
-    },
-    {
-      "id": 432,
-      "question": "6. A multi-account organization is using AWS Organizations to manage their accounts. The company wants to enforce certain restrictions, such as preventing accounts from enabling specific services or features, which apply to all their AWS accounts. Which permission mechanism best fits this use case?",
-      "options": [
-        "a. Service control policy (SCP)",
-        "b. Identity policy",
-        "c. Resource policy",
-        "d. Permission policy"
-      ],
-      "answer": "a. Service control policy (SCP)"
-    },
-    {
-      "id": 433,
-      "question": "7. A manufacturer wants to grant permissions to a new chief technology officer (CTO). They need permanent access to manage AWS resources, allowing them to create, modify, and delete resources as needed. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario?",
-      "options": [
-        "a. IAM root user",
-        "b. IAM role",
-        "c. IAM group",
-        "d. IAM user",
-        "a. A password for logging into Linux",
-        "b. A password for access to the management console",
-        "c. An access key ID and secret access key",
-        "d. An SSL/TLS certificate",
-        "e. A key pair"
-      ],
-      "answer": "b. A password for access to the management console, c. An access key ID and secret access key"
-    },
-    {
-      "id": 434,
-      "question": "9. A large organization uses AWS to host their web applications. They want to define fine-grained access control for their applications, ensuring that developers only have access to specific resources within their respective projects. Which permission mechanism best fits this requirement?",
-      "options": [
-        "a. Resource policy",
-        "b. Permission boundaries",
-        "c. Identity policy",
-        "d. Service control policy (SCP)"
-      ],
-      "answer": "c. Identity policy"
-    },
-    {
-      "id": 435,
-      "question": "10. A research company needs to provide access to a group of employees from different departments to manage the customer support portal that’s hosted on AWS. Which AWS Identity and Access Management (IAM) identity type would be most suitable for this scenario?",
-      "options": [
-        "a. IAM group",
-        "b. IAM user",
-        "c. IAM role",
-        "d. IAM user with only CLI access"
-      ],
-      "answer": "a. IAM group"
-    },
-    {
-      "id": 436,
-      "question": "11. How can a company configure automatic, asynchronous copying of objects in Amazon S3 buckets across regions?",
-      "options": [
-        "a. Using lifecycle actions",
-        "b. Using cross-region replication",
-        "c. This is done by default by AWS",
-        "d. By configuring multi-master replication",
-        "a. Host a static website",
-        "b. Install an operating system",
-        "c. Media hosting",
-        "d. In-memory data cache",
-        "e. Message queue",
-        "a. Security policies",
-        "b. Image files",
-        "c. HTML files",
-        "d. Network keys",
-        "a. Enable multi-factor authentication for users",
-        "b. Create IAM users in different AWS Regions",
-        "c. Disable password policies and management console access",
-        "d. Create IAM policies based on least privilege principles",
-        "e. Create IAM Roles and apply them to IAM groups"
-      ],
-      "answer": "a. Enable multi-factor authentication for users, d. Create IAM policies based on least privilege principles"
-    },
-    {
-      "id": 437,
-      "question": "15. A junior architect has overwritten a document in an S3 bucket by mistake. They want to prevent this from happening in the future. Which feature of Amazon S3 should they implement?",
-      "options": [
-        "a. S3 lifecycle policy",
-        "b. Cross-origin resource sharing (CORS)",
-        "c. S3 versioning",
-        "d. Multi-part upload"
-      ],
-      "answer": "c. S3 versioning"
-    },
-    {
-      "id": 438,
-      "question": "16. What does an organization need to do in Amazon IAM to enable user access to services being launched in new regions?",
-      "options": [
-        "a. Create new user accounts in the new region",
-        "b. Enable global mode in IAM to provision the required access",
-        "c. Nothing, IAM is global",
-        "d. Update the user accounts to allow access from another region"
-      ],
-      "answer": "c. Nothing, IAM is global"
-    },
-    {
-      "id": 439,
-      "question": "17. What do you need to log into the AWS console?",
-      "options": [
-        "a. Key pair",
-        "b. User name and password",
-        "c. Certificate",
-        "d. Access key and secret ID"
-      ],
-      "answer": "b. User name and password"
-    },
-    {
-      "id": 440,
-      "question": "18. A developer wants to store 10 years of data logs cost efficiently. Which service can support this workload?",
-      "options": [
-        "a. Amazon FSx",
-        "b. Amazon Elastic File System (Amazon EFS)",
-        "c. Amazon Elastic Block Store (Amazon EBS)",
-        "d. Amazon S3"
-      ],
-      "answer": "d. Amazon S3"
-    },
-    {
-      "id": 441,
-      "question": "19. A local bank wants to grant a contractor access to a specific S3 bucket for data migration purposes. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario?",
-      "options": [
-        "a. IAM role",
-        "b. IAM admin user",
-        "c. IAM group",
-        "d. IAM user"
-      ],
-      "answer": "a. IAM role"
-    },
-    {
-      "id": 442,
-      "question": "20. A company wants to reduce the storage costs of items that they access regularly but do not need instant access to. Which Amazon S3 storage class best fits this need?",
-      "options": [
-        "a. S3 on Outposts",
-        "b. S3 Standard",
-        "c. S3 Standard-Infrequent Access (S3 Standard-IA)",
-        "d. S3 Glacier Instant Retrieval"
-      ],
-      "answer": "c. S3 Standard-Infrequent Access (S3 Standard-IA)"
-    },
-    {
-      "id": 443,
-      "question": "Which feature of Amazon SNS ensures that messages are only delivered to subscribers who are currently available?",
-      "options": [
-        "a. Dead-letter queue",
-        "b. Message filtering",
-        "c. Delivery policies",
-        "d. Message retention"
-      ],
-      "answer": "b. Message filtering"
-    },
-    {
-      "id": 444,
-      "question": "How can a company connect from their on-premises network to VPCs in multiple regions using private connections?",
-      "options": [
-        "a. AWS Direct Connect Gateway",
-        "b. AWS Managed VPN",
-        "c. Inter-Region VPC Peering",
-        "d. Amazon CloudFront"
-      ],
-      "answer": "a. AWS Direct Connect Gateway"
-    },
-    {
-      "id": 447,
-      "question": "A company uses Amazon SNS to send real-time notifications. Which type of architecture does Amazon SNS implement for decoupling applications?",
-      "options": [
-        "a. Peer-to-peer messaging",
-        "b. Publish/subscribe messaging",
-        "c. Point-to-point messaging",
-        "d. Broadcast messaging"
-      ],
-      "answer": "b. Publish/subscribe messaging"
-    },
-    {
-      "id": 449,
-      "question": "Which AWS security service provides a firewall at the subnet level within a VPC?",
-      "options": [
-        "a. Bucket Policy",
-        "b. Security Group",
-        "c. Network Access Control List",
-        "d. IAM Policy"
-      ],
-      "answer": "c. Network Access Control List"
-    },
-    {
-      "id": 457,
-      "question": "Which type of content should you cache using Amazon CloudFront to optimize delivery to global users?",
-      "options": [
-        "a. Real-time data feeds",
-        "b. Dynamic user-generated data",
-        "c. Static web content like images and videos",
-        "d. Database transactions",
-        "a. Note the Availability Zone for each EC2 instance before stopping it. Restart the instances in the same Availability Zones after the 2-week company shutdown.",
-        "b. Run the applications on EC2 instances enabled for hibernation. Hibernate the instances before the 2-week company shutdown.",
-        "c. Modify the application to store the data on instance store volumes. Reattach the volumes while restarting them.",
-        "d. Snapshot the EC2 instances before stopping them. Restore the snapshot after restarting the instances."
-      ],
-      "answer": "Semisupervised ML"
-    },
-    {
-      "id": 467,
-      "question": "You need a CloudFormation template to support both production and development environments. Production spans two Availability Zones, while development is limited to one. Which section of the CloudFormation template can accomplish this?",
-      "options": [
-        "a. Description",
-        "b. Resources",
-        "c. Outputs",
-        "d. Conditions"
-      ],
-      "answer": "d. Conditions"
-    },
-    {
-      "id": 479,
-      "question": "What type of IAM policy is attached directly to an AWS resource?",
-      "options": [
-        "a. Role-based policy",
-        "b. User-based policy",
-        "c. Group-based policy",
-        "d. Resource-based policy"
-      ],
-      "answer": "d. Resource-based policy"
-    },
-    {
-      "id": 488,
-      "question": "Which database service should you recommend for an application that requires millisecond response times and supports unstructured key-value data?",
-      "options": [
-        "a. Amazon RDS",
-        "b. Amazon Aurora",
-        "c. Amazon Neptune",
-        "d. Amazon DynamoDB"
-      ],
-      "answer": "d. Amazon DynamoDB"
-    },
-    {
-      "id": 507,
-      "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently, the function times out with a “too many database connections” error. Which architecture option would fix this problem?",
-      "options": [
-        "a. Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service.",
-        "b. Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway, which connects to the customer’s VPC elastic network interface.",
-        "c. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy.",
-        "d. Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database."
-      ],
-      "answer": "c. Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
-    },
-    {
-      "id": 532,
-      "question": "Which of the following best describes an Availability Zone in the AWS Cloud?",
-      "options": [
-        "a. One or more physical data centers",
-        "b. One or more edge locations based around the world",
-        "c. A completely isolated geographic location",
-        "d. A subnet for deploying resources into"
-      ],
-      "answer": "a. One or more physical data centers"
-    },
-    {
-      "id": 535,
-      "question": "A company wants to reduce latency for read-heavy database queries. Which caching strategy should they implement in Amazon ElastiCache?",
-      "options": [
-        "a. Lazy loading",
-        "b. TTL-based caching",
-        "c. Write-through caching",
-        "d. Edge caching"
-      ],
-      "answer": "a. Lazy loading"
-    },
-    {
-      "id": 536,
-      "question": "A message in an Amazon SQS queue with a visibility timeout of 30 seconds is not fully processed. What will happen?",
-      "options": [
-        "a. The message will be deleted",
-        "b. The message will trigger an error notification",
-        "c. The message will be sent to a dead-letter queue",
-        "d. The message will become visible in the queue again"
-      ],
-      "answer": "d. The message will become visible in the queue again"
-    },
-    {
-      "id": 538,
-      "question": "An ecommerce site using CloudFront experiences high latency in specific regions. What can be done to improve the experience?",
-      "options": [
-        "a. Enable ElastiCache to cache dynamic content",
-        "b. Use an RDS Read Replica in each region",
-        "c. Increase CloudFront TTL values",
-        "d. Enable additional CloudFront edge locations"
-      ],
-      "answer": "d. Enable additional CloudFront edge locations"
-    },
-    {
-      "id": 539,
-      "question": "Which type of website changes dynamically based on user interaction?",
-      "options": [
-        "a. Nonresponsive",
-        "b. Dynamic",
-        "c. Static",
-        "d. Responsive"
-      ],
-      "answer": "b. Dynamic"
-    },
-    {
-      "id": 540,
-      "question": "A voting system's database struggles during peak load. Which solution decouples ingestion and ensures votes aren't lost?",
-      "options": [
-        "a. Scale the database horizontally with Multi-AZ deployment",
-        "b. Use AWS Lambda and API Gateway",
-        "c. Use EventBridge to re-provision larger instances during voting",
-        "d. Send votes to SQS and use workers to write to the database"
-      ],
-      "answer": "d. Send votes to SQS and use workers to write to the database"
-    },
-    {
-      "id": 541,
-      "question": "A web application faces performance issues during high traffic. Which solution ensures balanced traffic across EC2 instances?",
-      "options": [
-        "a. Amazon Route 53",
-        "b. Elastic Load Balancing",
-        "c. AWS Auto Scaling",
-        "d. Amazon CloudWatch"
-      ],
-      "answer": "b. Elastic Load Balancing"
-    },
-    {
-      "id": 543,
-      "question": "Which caching strategy is effective for workloads with frequent updates and critical data consistency?",
-      "options": [
-        "a. TTL-based caching",
-        "b. Edge caching",
-        "c. Lazy loading",
-        "d. Write-through caching"
-      ],
-      "answer": "d. Write-through caching"
-    },
-    {
-      "id": 544,
-      "question": "Which CloudFormation feature can detect manual changes made outside of a stack?",
-      "options": [
-        "a. Drift Detection",
-        "b. Change Sets",
-        "c. Update Stack",
-        "d. Rollback Triggers"
-      ],
-      "answer": "a. Drift Detection"
-    },
-    {
-      "id": 545,
-      "question": "A solutions architect has created two IAM policies: Policy1 and Policy2. Both policies are attached to an IAM group. A cloud engineer is added as an IAM user to the group. Which action will the cloud engineer be able to perform?",
-      "options": [
-        "a. Deleting directories",
-        "b. Deleting Amazon EC2 instances",
-        "c. Deleting logs from Amazon CloudWatch Logs",
-        "d. Deleting IAM users"
-      ],
-      "answer": "b. Deleting Amazon EC2 instances"
-    },
-    {
-      "id": 546,
-      "question": "Which scaling option is recommended for this scenario?",
-      "options": [
-        "a. EC2 Spot Fleet",
-        "b. Vertical scaling",
-        "c. Horizontal scaling with EC2 Auto Scaling groups",
-        "d. Manual scaling"
-      ],
-      "answer": "c. Horizontal scaling with EC2 Auto Scaling groups"
+      "answer": "d. S3 Standard-Infrequent Access (S3 Standard-IA)"
     },
     {
       "id": 180,
@@ -1955,7 +1165,7 @@
         "d. Attach an Elastic IP to the application servers.",
         "e. Set up an internet gateway in a private subnet."
       ],
-      "answer": ""
+      "answer": "b. Place the application servers in a private subnet., c. Configure a NAT gateway in a public subnet."
     },
     {
       "id": 200,
@@ -1967,7 +1177,7 @@
         "d. Express Workflows are charged based on the number of state transitions.",
         "e. Express Workflows offer synchronous and asynchronous workflows."
       ],
-      "answer": ""
+      "answer": "a. Standard Workflows offer an exactly-once run model for workflows., b. Standard Workflows offer synchronous and asynchronous processing."
     },
     {
       "id": 201,
@@ -1979,7 +1189,7 @@
         "d. Application Load Balancer invokes an application running on Amazon Elastic Container Service (Amazon ECS) which stores data on an Amazon Aurora Serverless cluster.",
         "e. Application Load Balancer invokes an application running on Amazon Elastic Kubernetes Service (Amazon EKS) which stores data on an Amazon DynamoDB table."
       ],
-      "answer": ""
+      "answer": "a. Amazon Kinesis invokes an AWS Lambda function and stores data on Amazon DynamoDB., b. Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer."
     },
     {
       "id": 204,
@@ -1991,25 +1201,40 @@
         "d. AWS customer virtual private cloud (VPC)",
         "e. Amazon Elastic Container Service (Amazon ECS) cluster"
       ],
-      "answer": ""
+      "answer": "c. Lambda service virtual private cloud (VPC), d. AWS customer virtual private cloud (VPC)"
     },
     {
       "id": 206,
-      "question": "A developer wants to grant secure long-term access to an S3 bucket across several AWS accounts. Which option can they use to grant secure long-term access to this S3 bucket? Block Public Access feature Bucket policy Preassigned URLs Client-side encryption",
-      "options": [],
-      "answer": "Bucket policy"
+      "question": "A developer wants to grant secure long-term access to an S3 bucket across several AWS accounts. Which option can they use to grant secure long-term access to this S3 bucket?",
+      "options": [
+        "a. Block Public Access feature",
+        "b. Bucket policy",
+        "c. Preassigned URLs",
+        "d. Client-side encryption"
+      ],
+      "answer": "b. Bucket policy"
     },
     {
       "id": 207,
-      "question": "A company wants to reduce the storage costs of items that they access regularly but do not need instant access to. Which Amazon S3 storage class best fits this need? S3 on Outposts S3 Glacier Instant Retrieval S3 Standard-Infrequent Access (S3 Standard-IA) S3 Standard",
-      "options": [],
-      "answer": "S3 Standard-Infrequent Access (S3 Standard-IA)"
+      "question": "A company wants to reduce the storage costs of items that they access regularly but do not need instant access to. Which Amazon S3 storage class best fits this need?",
+      "options": [
+        "a. S3 on Outposts",
+        "b. S3 Glacier Instant Retrieval",
+        "c. S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "d. S3 Standard"
+      ],
+      "answer": "c. S3 Standard-Infrequent Access (S3 Standard-IA)"
     },
     {
       "id": 208,
-      "question": "A developer wants to store 10 years of data logs cost efficiently. Which service can support this workload? Amazon FSx Amazon S3 Amazon Elastic Block Store (Amazon EBS) Amazon Elastic File System (Amazon EFS)",
-      "options": [],
-      "answer": "Amazon S3"
+      "question": "A developer wants to store 10 years of data logs cost efficiently. Which service can support this workload?",
+      "options": [
+        "a. Amazon FSx",
+        "b. Amazon S3",
+        "c. Amazon Elastic Block Store (Amazon EBS)",
+        "d. Amazon Elastic File System (Amazon EFS)"
+      ],
+      "answer": "b. Amazon S3"
     },
     {
       "id": 209,
@@ -2021,7 +1246,7 @@
         "d. Access policies",
         "e. Security groups"
       ],
-      "answer": ""
+      "answer": "c. Roles, d. Access policies"
     },
     {
       "id": 210,
@@ -2033,61 +1258,106 @@
         "d. Disable password policies and management console access.",
         "e. Create IAM users in different AWS Regions."
       ],
-      "answer": ""
+      "answer": "a. Create IAM policies based on least privilege principles., c. Enable multi-factor authentication for users."
     },
     {
       "id": 212,
-      "question": "A multi-account organization is using AWS Organizations to manage their accounts. The company wants to enforce certain restrictions, such as preventing accounts from enabling specific services or features, which apply to all their AWS accounts. Which permission mechanism best fits this use case? Resource policy Permission policy Identity policy Service control policy (SCP)",
-      "options": [],
-      "answer": "Service control policy (SCP)"
+      "question": "A multi-account organization is using AWS Organizations to manage their accounts. The company wants to enforce certain restrictions, such as preventing accounts from enabling specific services or features, which apply to all their AWS accounts. Which permission mechanism best fits this use case?",
+      "options": [
+        "a. Resource policy",
+        "b. Permission policy",
+        "c. Identity policy",
+        "d. Service control policy (SCP)"
+      ],
+      "answer": "d. Service control policy (SCP)"
     },
     {
       "id": 214,
-      "question": "A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data between storage classes without using manual processes? Amazon S3 Transfer Acceleration Amazon S3 lifecycle policy Amazon S3 bucket policy AWS Transfer Family",
-      "options": [],
-      "answer": "Amazon S3 lifecycle policy"
+      "question": "A company is required to keep customer data for 10 years for regulatory compliance. How can they transition data between storage classes without using manual processes?",
+      "options": [
+        "a. Amazon S3 Transfer Acceleration",
+        "b. Amazon S3 lifecycle policy",
+        "c. Amazon S3 bucket policy",
+        "d. AWS Transfer Family"
+      ],
+      "answer": "b. Amazon S3 lifecycle policy"
     },
     {
       "id": 215,
-      "question": "Which types of files can be publicly hosted on an Amazon S3 static website? (Select TWO.) HTML files Security policies Network keys Image files",
-      "options": [],
-      "answer": "HTML files, Image files"
+      "question": "Which types of files can be publicly hosted on an Amazon S3 static website? (Select TWO.)",
+      "options": [
+        "a. HTML files",
+        "b. Security policies",
+        "c. Network keys",
+        "d. Image files"
+      ],
+      "answer": "a. HTML files, d. Image files"
     },
     {
       "id": 216,
-      "question": "A local bank wants to grant a contractor access to a specific S3 bucket for data migration purposes. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario? IAM user IAM group IAM admin user IAM role",
-      "options": [],
-      "answer": "IAM role"
+      "question": "A local bank wants to grant a contractor access to a specific S3 bucket for data migration purposes. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario?",
+      "options": [
+        "a. IAM user",
+        "b. IAM group",
+        "c. IAM admin user",
+        "d. IAM role"
+      ],
+      "answer": "d. IAM role"
     },
     {
       "id": 217,
-      "question": "A manufacturer wants to grant permissions to a new chief technology officer (CTO). They need permanent access to manage AWS resources, allowing them to create, modify, and delete resources as needed. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario? IAM user IAM role IAM root user IAM group",
-      "options": [],
-      "answer": "IAM user"
+      "question": "A manufacturer wants to grant permissions to a new chief technology officer (CTO). They need permanent access to manage AWS resources, allowing them to create, modify, and delete resources as needed. Which AWS Identity and Access Management (IAM) identity type should be used in this scenario?",
+      "options": [
+        "a. IAM user",
+        "b. IAM role",
+        "c. IAM root user",
+        "d. IAM group"
+      ],
+      "answer": "a. IAM user"
     },
     {
       "id": 218,
-      "question": "A junior architect has overwritten a document in an S3 bucket by mistake. They want to prevent this from happening in the future. Which feature of Amazon S3 should they implement? Cross-origin resource sharing (CORS) S3 lifecycle policy Multi-part upload S3 versioning",
-      "options": [],
-      "answer": "S3 versioning"
+      "question": "A junior architect has overwritten a document in an S3 bucket by mistake. They want to prevent this from happening in the future. Which feature of Amazon S3 should they implement?",
+      "options": [
+        "a. Cross-origin resource sharing (CORS)",
+        "b. S3 lifecycle policy",
+        "c. Multi-part upload",
+        "d. S3 versioning"
+      ],
+      "answer": "d. S3 versioning"
     },
     {
       "id": 220,
-      "question": "A research company needs to provide access to a group of employees from different departments to manage the customer support portal that’s hosted on AWS. Which AWS Identity and Access Management (IAM) identity type would be most suitable for this scenario? IAM role IAM user with only CLI access IAM user IAM group",
-      "options": [],
-      "answer": "IAM group"
+      "question": "A research company needs to provide access to a group of employees from different departments to manage the customer support portal that’s hosted on AWS. Which AWS Identity and Access Management (IAM) identity type would be most suitable for this scenario?",
+      "options": [
+        "a. IAM role",
+        "b. IAM user with only CLI access",
+        "c. IAM user",
+        "d. IAM group"
+      ],
+      "answer": "d. IAM group"
     },
     {
       "id": 221,
-      "question": "In the AWS Identity and Access Management (IAM) policy evaluation process, which best describes the order of steps that are taken when determining whether a principal is allowed or denied access to a specific resource? Check explicit allow, check explicit deny, check for absence of rules Check explicit deny, check explicit allow, apply implicit deny if there are no explicit rules. Check for absence of rules, check explicit allow, check explicit deny Check explicit allow, check deny",
-      "options": [],
-      "answer": "Check explicit deny, check explicit allow, apply implicit deny if there are no explicit rules."
+      "question": "In the AWS Identity and Access Management (IAM) policy evaluation process, which best describes the order of steps that are taken when determining whether a principal is allowed or denied access to a specific resource?",
+      "options": [
+        "a. Check explicit allow, check explicit deny, check for absence of rules",
+        "b. Check explicit deny, check explicit allow, apply implicit deny if there are no explicit rules.",
+        "c. Check for absence of rules, check explicit allow, check explicit deny",
+        "d. Check explicit allow, check deny"
+      ],
+      "answer": "b. Check explicit deny, check explicit allow, apply implicit deny if there are no explicit rules."
     },
     {
       "id": 222,
-      "question": "A large organization uses AWS to host their web applications. They want to define fine-grained access control for their applications, ensuring that developers only have access to specific resources within their respective projects. Which permission mechanism best fits this requirement? Identity policy Resource policy Permission boundaries Service control policy (SCP)",
-      "options": [],
-      "answer": "Identity policy"
+      "question": "A large organization uses AWS to host their web applications. They want to define fine-grained access control for their applications, ensuring that developers only have access to specific resources within their respective projects. Which permission mechanism best fits this requirement?",
+      "options": [
+        "a. Identity policy",
+        "b. Resource policy",
+        "c. Permission boundaries",
+        "d. Service control policy (SCP)"
+      ],
+      "answer": "a. Identity policy"
     },
     {
       "id": 223,
@@ -2099,7 +1369,7 @@
         "d. A key pair",
         "e. A password for logging into Linux"
       ],
-      "answer": ""
+      "answer": "a. An access key ID and secret access key, b. A password for access to the management console"
     },
     {
       "id": 224,
@@ -2111,7 +1381,7 @@
         "d. Message queue",
         "e. Media hosting"
       ],
-      "answer": ""
+      "answer": "a. Host a static website, e. Media hosting"
     },
     {
       "id": 226,
@@ -2123,7 +1393,7 @@
         "d. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the private subnets for the application tier.",
         "e. Configure a NAT gateway in a public subnet."
       ],
-      "answer": "d. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the private subnets for the application tier."
+      "answer": "d. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the private subnets for the application tier., e. Configure a NAT gateway in a public subnet."
     },
     {
       "id": 237,
@@ -2135,13 +1405,17 @@
         "d. AWS Managed VPN",
         "e. AWS Managed Services"
       ],
-      "answer": "b. AWS Direct Connect"
+      "answer": "b. AWS Direct Connect, d. AWS Managed VPN"
     },
     {
       "id": 244,
-      "question": "Match each method to approaching ML to its description. For each description, write the letter next to the method that it describes. Starts with training data that includes the required output to adjust the ML algorithm. Starts with training data that does not include the desired output. Combine some features of supervised ML with some features of unsupervised ML. Supervised ML Unsupervised ML Semisupervised ML",
-      "options": [],
-      "answer": "Supervised ML: Starts with training data that includes the required output to adjust the ML algorithm., Unsupervised ML: Starts with training data that does not include the desired output., Semi-supervised ML: Combines features of supervised ML with features of unsupervised ML."
+      "question": "Match each method to approaching ML to its description. For each description, write the letter next to the method that it describes.",
+      "options": [
+        "a. Starts with training data that includes the required output to adjust the ML algorithm.",
+        "b. Starts with training data that does not include the desired output.",
+        "c. Combines some features of supervised ML with some features of unsupervised ML."
+      ],
+      "answer": "a. Supervised ML, b. Unsupervised ML, c. Semi-supervised ML"
     },
     {
       "id": 314,
@@ -2153,7 +1427,7 @@
         "d. Use client-side encryption to provide at-rest encryption.",
         "e. Use server-side encryption with customer-provided encryption keys (SSE-C)."
       ],
-      "answer": ""
+      "answer": "d. Use client-side encryption to provide at-rest encryption., e. Use server-side encryption with customer-provided encryption keys (SSE-C)"
     },
     {
       "id": 321,
@@ -2168,9 +1442,13 @@
     },
     {
       "id": 322,
-      "question": "Match each method to approaching ML to its description. For each description, write the letter next to the method that it describes. Starts with training data that includes the required output to adjust the ML algorithm.",
-      "options": [],
-      "answer": "Supervised ML, Starts with training data that does not include the desired output., Unsupervised ML, Combines some features of supervised ML with some features of unsupervised ML., Semisupervised ML"
+      "question": "Match each method to approaching ML to its description. For each description, write the letter next to the method that it describes.",
+      "options": [
+        "a. Starts with training data that includes the required output to adjust the ML algorithm.",
+        "b. Starts with training data that does not include the desired output.",
+        "c. Combines some features of supervised ML with some features of unsupervised ML."
+      ],
+      "answer": "a. Supervised ML, b. Unsupervised ML, c. Semi-supervised ML"
     },
     {
       "id": 324,
@@ -2181,7 +1459,7 @@
         "c. Organizations with multiple IT teams",
         "d. Large organizations"
       ],
-      "answer": ""
+      "answer": "a. Single team, b. Single organizations"
     },
     {
       "id": 396,
@@ -2196,7 +1474,7 @@
     },
     {
       "id": 405,
-      "question": "To optimize network traffic for applications, a CloudFormation template needs to configure the right subnet for instances. Which CloudFormation feature can dynamically set the appropriate subnet based on conditions? Options:",
+      "question": "To optimize network traffic for applications, a CloudFormation template needs to configure the right subnet for instances. Which CloudFormation feature can dynamically set the appropriate subnet based on conditions?",
       "options": [
         "a. Outputs",
         "b. Resources",
@@ -2207,7 +1485,7 @@
     },
     {
       "id": 406,
-      "question": "Which AWS service allows real-time analysis of metrics and can trigger alarms when thresholds are breached? Options:",
+      "question": "Which AWS service allows real-time analysis of metrics and can trigger alarms when thresholds are breached?",
       "options": [
         "a. Amazon S3",
         "b. AWS Config",
@@ -2218,9 +1496,13 @@
     },
     {
       "id": 407,
-      "question": "Match each method to approaching ML to its description: Starts with training data that includes the required output to adjust the ML algorithm: Supervised ML Combines features of supervised and unsupervised ML: Semi Supervised ML Starts with training data that does not include the desired output: Unsupervised ML",
-      "options": [],
-      "answer": "Supervised ML, Semisupervised ML, Unsupervised ML"
+      "question": "Match each method to approaching ML to its description:",
+      "options": [
+        "a. Starts with training data that includes the required output to adjust the ML algorithm: Supervised ML",
+        "b. Combines features of supervised and unsupervised ML: Semi Supervised ML",
+        "c. Starts with training data that does not include the desired output: Unsupervised ML"
+      ],
+      "answer": "a. Supervised ML, b. Semi-supervised ML, c. Unsupervised ML"
     },
     {
       "id": 412,
@@ -2232,11 +1514,11 @@
         "d. Assign Elastic IP addresses to the EC2 instances",
         "e. Define a custom route table with a route to the NAT gateway"
       ],
-      "answer": ""
+      "answer": "a. Configure a NAT gateway in a public subnet, e. Define a custom route table with a route to the NAT gateway"
     },
     {
       "id": 422,
-      "question": "Which CloudFormation feature can detect manual changes made outside of a stack? Options:",
+      "question": "Which CloudFormation feature can detect manual changes made outside of a stack?",
       "options": [
         "a. Drift Detection",
         "b. Change Sets",

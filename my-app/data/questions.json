@@ -1,0 +1,3018 @@
+[
+  {
+    "question": "What is Amazon S3 Inventory used for?",
+    "options": [
+      {
+        "id": 1,
+        "text": "To encrypt data before storing"
+      },
+      {
+        "id": 2,
+        "text": "To audit and report on object replication and encryption status"
+      },
+      {
+        "id": 3,
+        "text": "To increase the speed of file uploads"
+      },
+      {
+        "id": 4,
+        "text": "To create new S3 buckets automatically"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "What benefit does Amazon EC2 Spot Instances offer?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Guaranteed capacity in a specific region"
+      },
+      {
+        "id": 2,
+        "text": "Substantial cost savings for fault-tolerant and flexible workloads"
+      },
+      {
+        "id": 3,
+        "text": "Only for Linux-based workloads"
+      },
+      {
+        "id": 4,
+        "text": "Best for steady-state, predictable workloads"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "What does the EC2 Image Builder do?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Creates real-time data backups"
+      },
+      {
+        "id": 2,
+        "text": "Manages IAM policies"
+      },
+      {
+        "id": 3,
+        "text": "Analyzes network traffic"
+      },
+      {
+        "id": 4,
+        "text": "Automates the creation and management of AMIs"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which of the following is a key advantage of using AMIs in EC2?",
+    "options": [
+      {
+        "id": 1,
+        "text": "It offers better control over DNS configurations"
+      },
+      {
+        "id": 2,
+        "text": "It automatically scales EC2 capacity"
+      },
+      {
+        "id": 3,
+        "text": "It ensures repeatability and recoverability of instances"
+      },
+      {
+        "id": 4,
+        "text": "It reduces the cost of cloud storage"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which EC2 pricing model offers the most flexibility while still providing discounts?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Spot Instances"
+      },
+      {
+        "id": 2,
+        "text": "On-Demand"
+      },
+      {
+        "id": 3,
+        "text": "Savings Plans"
+      },
+      {
+        "id": 4,
+        "text": "Reserved Instances"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which storage option should be used when multiple EC2 instances need access to the same data volume?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon EFS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 3,
+        "text": "Instance Store"
+      },
+      {
+        "id": 4,
+        "text": "Amazon S3"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What is the maximum file size that can be stored as a single object in Amazon S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "5 TB"
+      },
+      {
+        "id": 2,
+        "text": "Unlimited"
+      },
+      {
+        "id": 3,
+        "text": "1 TB"
+      },
+      {
+        "id": 4,
+        "text": "10 TB"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What type of storage does Amazon S3 provide?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Block storage"
+      },
+      {
+        "id": 2,
+        "text": "Database storage"
+      },
+      {
+        "id": 3,
+        "text": "File storage"
+      },
+      {
+        "id": 4,
+        "text": "Object storage"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which of the following is a common use case for Amazon S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Storing structured database records"
+      },
+      {
+        "id": 2,
+        "text": "Hosting dynamic websites"
+      },
+      {
+        "id": 3,
+        "text": "Running real-time analytics"
+      },
+      {
+        "id": 4,
+        "text": "Supporting disaster recovery or data backup solutions"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "What is a key benefit of using Amazon S3 for data storage?",
+    "options": [
+      {
+        "id": 1,
+        "text": "High cost for large data sets"
+      },
+      {
+        "id": 2,
+        "text": "Automatic data structuring"
+      },
+      {
+        "id": 3,
+        "text": "Limited storage capacity"
+      },
+      {
+        "id": 4,
+        "text": "Durability, availability, and high performance"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A customer wants to connect multiple VPCs in a hub-and-spoke model for centralized management. Which AWS service should they use?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 2,
+        "text": "AWS Transit Gateway"
+      },
+      {
+        "id": 3,
+        "text": "AWS Direct Connect"
+      },
+      {
+        "id": 4,
+        "text": "Internet Gateway"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which AWS service should be used to connect two VPCs in different AWS accounts and regions?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Internet Gateway"
+      },
+      {
+        "id": 2,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "AWS Transit Gateway Peering"
+      },
+      {
+        "id": 4,
+        "text": "AWS Direct Connect"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which AWS service would you use to create a secure, encrypted connection from an on-premises network to AWS over the internet?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Site-to-Site VPN"
+      },
+      {
+        "id": 2,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "AWS Direct Connect"
+      },
+      {
+        "id": 4,
+        "text": "AWS Transit Gateway"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "An application on AWS needs to access Amazon S3 privately without using the internet. What is the best solution?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use a NAT Gateway"
+      },
+      {
+        "id": 2,
+        "text": "Use a VPC Endpoint"
+      },
+      {
+        "id": 3,
+        "text": "Use an Internet Gateway"
+      },
+      {
+        "id": 4,
+        "text": "Use a Site-to-Site VPN"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A financial company has strict requirements for dedicated, private connectivity from their on-premises data center to AWS. Which AWS service should they use?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 2,
+        "text": "AWS Direct Connect"
+      },
+      {
+        "id": 3,
+        "text": "AWS VPN"
+      },
+      {
+        "id": 4,
+        "text": "AWS Transit Gateway"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "An organization wants users to access AWS with existing corporate credentials. Which service can facilitate this?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Cognito"
+      },
+      {
+        "id": 2,
+        "text": "AWS Single Sign-On"
+      },
+      {
+        "id": 3,
+        "text": "AWS Identity and Access Management (IAM)"
+      },
+      {
+        "id": 4,
+        "text": "AWS Organizations"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "What is the best AWS solution to centrally manage permissions across multiple AWS accounts?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Organizations with Service Control Policies (SCPs)"
+      },
+      {
+        "id": 2,
+        "text": "AWS Identity and Access Management (IAM)"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Cognito"
+      },
+      {
+        "id": 4,
+        "text": "AWS Single Sign-On"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "A company wants to provide users access to a mobile app that uses AWS resources but without exposing AWS credentials. Which service is best suited for this use case?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS IAM"
+      },
+      {
+        "id": 2,
+        "text": "AWS Single Sign-On"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Cognito"
+      },
+      {
+        "id": 4,
+        "text": "AWS Directory Service"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company needs to audit user activity and API calls across its AWS account. Which service provides a record of these actions?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie"
+      },
+      {
+        "id": 2,
+        "text": "AWS CloudTrail"
+      },
+      {
+        "id": 3,
+        "text": "AWS Config"
+      },
+      {
+        "id": 4,
+        "text": "AWS Trusted Advisor"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "An organization needs to implement a security policy to ensure that all data in Amazon S3 is encrypted. Which AWS service allows setting and monitoring compliance for this policy?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie"
+      },
+      {
+        "id": 2,
+        "text": "AWS Shield"
+      },
+      {
+        "id": 3,
+        "text": "AWS Config"
+      },
+      {
+        "id": 4,
+        "text": "AWS Identity and Access Management (IAM)"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company needs to cache frequently accessed session data to reduce database load. Which caching strategy is most appropriate?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Write-through caching with ElastiCache"
+      },
+      {
+        "id": 2,
+        "text": "Edge caching with Amazon CloudFront"
+      },
+      {
+        "id": 3,
+        "text": "Lazy loading with CloudFront"
+      },
+      {
+        "id": 4,
+        "text": "Session caching with Amazon ElastiCache"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company wants to reduce latency for read-heavy database queries. Which caching strategy should they implement in Amazon ElastiCache?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Write-through caching"
+      },
+      {
+        "id": 2,
+        "text": "TTL-based caching"
+      },
+      {
+        "id": 3,
+        "text": "Edge caching"
+      },
+      {
+        "id": 4,
+        "text": "Lazy loading"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Your ecommerce application is experiencing high read traffic on an Amazon RDS database, impacting performance. Which solution offers the most cost-effective way to handle increased read traffic?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Place the RDS database behind a load balancer"
+      },
+      {
+        "id": 2,
+        "text": "Enable Multi-AZ for Amazon RDS"
+      },
+      {
+        "id": 3,
+        "text": "Use Amazon CloudFront to cache RDS queries"
+      },
+      {
+        "id": 4,
+        "text": "Configure Amazon ElastiCache to cache frequent queries"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company has configured an Amazon SQS queue with a visibility timeout of 30 seconds. A message is not fully processed within this period. What will happen to this message?",
+    "options": [
+      {
+        "id": 1,
+        "text": "The message will be sent to a dead-letter queue"
+      },
+      {
+        "id": 2,
+        "text": "The message will trigger an error notification"
+      },
+      {
+        "id": 3,
+        "text": "The message will be deleted"
+      },
+      {
+        "id": 4,
+        "text": "The message will become visible in the queue again"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company uses Amazon SQS for decoupling components in an application. They need to guarantee that messages are processed only once. Which type of queue should they use?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Dead-letter Queue"
+      },
+      {
+        "id": 2,
+        "text": "Priority Queue"
+      },
+      {
+        "id": 3,
+        "text": "FIFO Queue"
+      },
+      {
+        "id": 4,
+        "text": "Standard Queue"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "An application needs to decouple a task from other components. Which AWS service should the application use to ensure tasks are queued and processed independently?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Lambda"
+      },
+      {
+        "id": 2,
+        "text": "Amazon SNS"
+      },
+      {
+        "id": 3,
+        "text": "Amazon MQ"
+      },
+      {
+        "id": 4,
+        "text": "Amazon SQS"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "To handle messages that cannot be processed after multiple attempts, what type of queue should you configure in Amazon SQS?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Temporary Queue"
+      },
+      {
+        "id": 2,
+        "text": "FIFO Queue"
+      },
+      {
+        "id": 3,
+        "text": "Dead-letter Queue"
+      },
+      {
+        "id": 4,
+        "text": "Standard Queue"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "What is the primary use case for Amazon MQ in a decoupled architecture?",
+    "options": [
+      {
+        "id": 1,
+        "text": "To run batch processing"
+      },
+      {
+        "id": 2,
+        "text": "To manage distributed databases"
+      },
+      {
+        "id": 3,
+        "text": "For hybrid cloud environments"
+      },
+      {
+        "id": 4,
+        "text": "For real-time notifications"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "To optimize cache performance, which approach should you take for data that becomes stale after a specific period?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use a write-through cache"
+      },
+      {
+        "id": 2,
+        "text": "Implement CloudFront for caching"
+      },
+      {
+        "id": 3,
+        "text": "Set a TTL (Time-to-Live) for cache entries"
+      },
+      {
+        "id": 4,
+        "text": "Enable lazy loading"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "An ecommerce site uses Amazon CloudFront to serve static content, but customers in certain regions report high latency. What can be done to improve the experience?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Enable additional CloudFront edge locations in affected regions"
+      },
+      {
+        "id": 2,
+        "text": "Increase CloudFront TTL values"
+      },
+      {
+        "id": 3,
+        "text": "Enable ElastiCache to cache dynamic content"
+      },
+      {
+        "id": 4,
+        "text": "Use an RDS Read Replica in each region"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "A global e-commerce company needs to ensure low-latency access and quick failover for its customers in case of disaster. Which AWS service can best help in this scenario?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Direct Connect"
+      },
+      {
+        "id": 2,
+        "text": "AWS Transit Gateway"
+      },
+      {
+        "id": 3,
+        "text": "AWS Global Accelerator"
+      },
+      {
+        "id": 4,
+        "text": "Amazon S3 Transfer Acceleration"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A healthcare system must remain available 24/7 to meet strict compliance standards. Which disaster recovery strategy is the most suitable for this requirement?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Pilot light"
+      },
+      {
+        "id": 2,
+        "text": "Back-up and restore"
+      },
+      {
+        "id": 3,
+        "text": "Warm standby"
+      },
+      {
+        "id": 4,
+        "text": "Multi-site active"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A cloud architect needs to give their management team a recommendation of implementing synchronous data replication for the Amazon RDS database to help meet the recovery time objective (RTO). Which option can perform synchronous data replication in Amazon RDS?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS Read Replicas"
+      },
+      {
+        "id": 2,
+        "text": "AWS Database Migration Service (AWS DMS)"
+      },
+      {
+        "id": 3,
+        "text": "Amazon RDS Multi-AZ"
+      },
+      {
+        "id": 4,
+        "text": "Amazon DynamoDB Accelerator (DAX)"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A ticketing system requires restoration within 2 hours after an outage. What RTO would be acceptable for this system?",
+    "options": [
+      {
+        "id": 1,
+        "text": "8 hours"
+      },
+      {
+        "id": 2,
+        "text": "Immediate"
+      },
+      {
+        "id": 3,
+        "text": "24 hours"
+      },
+      {
+        "id": 4,
+        "text": "2 hours"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "What is the primary factor to consider when determining the Recovery Point Objective (RPO) for a system?",
+    "options": [
+      {
+        "id": 1,
+        "text": "The maximum acceptable amount of downtime for system recovery"
+      },
+      {
+        "id": 2,
+        "text": "The maximum acceptable amount of data loss measured in time"
+      },
+      {
+        "id": 3,
+        "text": "The geographic location of the recovery data"
+      },
+      {
+        "id": 4,
+        "text": "The cost of implementing disaster recovery strategies"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A consultant needs to recommend a disaster recovery solution for a company with a 7 TB Amazon Redshift cluster. The company requires a backup in another Region from the primary Region. Which is the most cost-effective solution?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy the Amazon Redshift cluster in a second Region using AWS CloudFormation."
+      },
+      {
+        "id": 2,
+        "text": "Create an AWS Lambda function to copy a snapshot of the database to another Region."
+      },
+      {
+        "id": 3,
+        "text": "Enable cross-Region snapshots to a different region."
+      },
+      {
+        "id": 4,
+        "text": "Modify the existing Amazon Redshift cluster to enable Multi-AZ."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A manager needs to implement a disaster recovery strategy for an architecture that is hosted on AWS. She knows that the workload is not critical to the business, so keeping costs low is more important than the speed of recovery. Which disaster recovery strategy should she implement?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Multi-site active"
+      },
+      {
+        "id": 2,
+        "text": "Warm standby"
+      },
+      {
+        "id": 3,
+        "text": "Pilot light"
+      },
+      {
+        "id": 4,
+        "text": "Back-up and restore"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which of the following is a key component of a Business Continuity Plan (BCP)?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Evaluating RPO and RTO"
+      },
+      {
+        "id": 2,
+        "text": "Implementing CloudFormation templates"
+      },
+      {
+        "id": 3,
+        "text": "Provisioning a warm standby"
+      },
+      {
+        "id": 4,
+        "text": "Establishing a customer communication plan"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Which disaster recovery pattern is best for business-critical services requiring an RTO and RPO in minutes?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Pilot light"
+      },
+      {
+        "id": 2,
+        "text": "Warm standby"
+      },
+      {
+        "id": 3,
+        "text": "Multi-site"
+      },
+      {
+        "id": 4,
+        "text": "Backup and restore"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which AWS tool is commonly used to automate the deployment of disaster recovery environments?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Route 53"
+      },
+      {
+        "id": 2,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 3,
+        "text": "AWS CloudFormation"
+      },
+      {
+        "id": 4,
+        "text": "AWS Direct Connect"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "An administrator needs secure access to manage instances in a private subnet from an on-premises network. Which solution should they implement?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use a VPN connection"
+      },
+      {
+        "id": 2,
+        "text": "Configure an internet gateway"
+      },
+      {
+        "id": 3,
+        "text": "Set up a bastion host in a public subnet"
+      },
+      {
+        "id": 4,
+        "text": "Assign Elastic IPs to the private instances"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A VPC design includes a small number of available IP addresses, which limits growth. What change should the architect consider?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy instances in another VPC"
+      },
+      {
+        "id": 2,
+        "text": "Increase the CIDR block size of the VPC"
+      },
+      {
+        "id": 3,
+        "text": "Create more subnets with smaller CIDR blocks"
+      },
+      {
+        "id": 4,
+        "text": "Use Elastic IP addresses"
+      },
+      {
+        "id": 1,
+        "text": "Update the application to read from the Multi-AZ standby instance."
+      },
+      {
+        "id": 2,
+        "text": "Create a second Aurora database and link it to the primary database as a read replica."
+      },
+      {
+        "id": 3,
+        "text": "Enable read-through caching on the Aurora database."
+      },
+      {
+        "id": 4,
+        "text": "Create an Aurora replica and modify the application to use the appropriate endpoints."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A company's VPC is experiencing unintended network access. Which AWS tool helps analyze and identify this network access issue?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Flow Logs"
+      },
+      {
+        "id": 2,
+        "text": "Reachability Analyzer"
+      },
+      {
+        "id": 3,
+        "text": "Traffic Mirroring"
+      },
+      {
+        "id": 4,
+        "text": "Network Access Analyzer"
+      },
+      {
+        "id": 1,
+        "text": "Configure a custom DHCP option set. Configure DHCP to assign the same private IP address to the standby EC2 instance when the primary EC2 instance fails."
+      },
+      {
+        "id": 2,
+        "text": "Associate an Elastic IP address with the network interface of the primary EC2 instance. Disassociate the Elastic IP from the primary instance upon failure and associate it with a standby EC2 instance."
+      },
+      {
+        "id": 3,
+        "text": "Deploy an Application Load Balancer configured with a listener for the private IP address and register the primary EC2 instance with the load balancer. Upon failure, de-register the instance and register the standby EC2 instance."
+      },
+      {
+        "id": 4,
+        "text": "Attach a secondary elastic network interface to the EC2 instance configured with the private IP address. Move the network interface to the standby EC2 instance if the primary EC2 instance becomes unreachable."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What database option is best for latency-sensitive applications requiring in-memory storage?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon ElastiCache"
+      },
+      {
+        "id": 2,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 3,
+        "text": "Amazon DynamoDB"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Aurora"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Which database service should you recommend for an application that requires millisecond response times and supports unstructured key-value data?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Aurora"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Neptune"
+      },
+      {
+        "id": 4,
+        "text": "Amazon DynamoDB"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which AWS service provides multi-region data replication for a NoSQL database?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon DynamoDB with global tables"
+      },
+      {
+        "id": 2,
+        "text": "Amazon RDS with Multi-AZ"
+      },
+      {
+        "id": 3,
+        "text": "Amazon S3"
+      },
+      {
+        "id": 4,
+        "text": "Amazon ElastiCache"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Which AWS service includes built-in point-in-time recovery to prevent accidental data loss?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon DynamoDB"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Redshift"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Timestream"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A company wants to connect a VPC to an on-premises network but needs to avoid data transmission over the internet. What is the best solution?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use an Internet Gateway"
+      },
+      {
+        "id": 2,
+        "text": "Use VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "Use AWS Site-to-Site VPN"
+      },
+      {
+        "id": 4,
+        "text": "Use AWS Direct Connect"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which AWS service can enforce a security policy across multiple accounts to ensure specific actions are restricted?",
+    "options": [
+      {
+        "id": 1,
+        "text": "IAM Policies"
+      },
+      {
+        "id": 2,
+        "text": "Service Control Policies (SCPs)"
+      },
+      {
+        "id": 3,
+        "text": "IAM Roles"
+      },
+      {
+        "id": 4,
+        "text": "AWS Config Rules"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A company needs an automated solution to discover sensitive data in Amazon S3. Which service should they use?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie"
+      },
+      {
+        "id": 2,
+        "text": "AWS Security Hub"
+      },
+      {
+        "id": 3,
+        "text": "AWS Config"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Inspector"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "An AWS account administrator wants to ensure that only specific services can be accessed within an AWS account. What is the best way to enforce this restriction across all users and roles?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Apply a Service Control Policy (SCP) to the account"
+      },
+      {
+        "id": 2,
+        "text": "Apply an IAM policy to individual users"
+      },
+      {
+        "id": 3,
+        "text": "Use AWS Organizations to manage users"
+      },
+      {
+        "id": 4,
+        "text": "Use AWS Shield for access control"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Which AWS service provides temporary, limited-privilege credentials for users or applications?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Organizations"
+      },
+      {
+        "id": 2,
+        "text": "AWS Single Sign-On"
+      },
+      {
+        "id": 3,
+        "text": "AWS Security Token Service (STS)"
+      },
+      {
+        "id": 4,
+        "text": "AWS Identity and Access Management (IAM)"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently the function times out with “too many database connections” error. Which architecture option would fix this problem?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface."
+      },
+      {
+        "id": 2,
+        "text": "Ensure the that Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
+      },
+      {
+        "id": 3,
+        "text": "Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database."
+      },
+      {
+        "id": 4,
+        "text": "Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A solutions architect is tasked to build a production scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
+      },
+      {
+        "id": 2,
+        "text": "Create a service definition. Run the service to deploy containers on Amazon EC2 instance nodes."
+      },
+      {
+        "id": 3,
+        "text": "Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers."
+      },
+      {
+        "id": 4,
+        "text": "Create a PodSpec and use it to launch one container on Amazon EC2 instance nodes. Add an Application Load Balancer to route traffic to the container."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "A company needs to store application error logs for later analysis. The raw data must be preserved, and the data needs to be accessed by more than one team with their specific analysis tools. Which AWS storage service would be the MOST cost effective?",
+    "options": [
+      {
+        "id": 1,
+        "text": "OpenSearch"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Kinesis Data Streams"
+      },
+      {
+        "id": 3,
+        "text": "Amazon S3 as a data lake"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Redshift"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company processes massive streams of data in real-time from IoT devices. The processed data is used for real-time dashboards and analytics. Which AWS service would be the most suitable for this requirement?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Glue"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Redshift"
+      },
+      {
+        "id": 3,
+        "text": "Amazon EMR"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Kinesis Data Analytics"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A solutions architect is designing a workflow that needs real-time data ingestion. They are considering either Amazon Kinesis Data Firehose or Amazon Kinesis Data Streams for this solution. Which service should the solutions architect choose to meet the requirement of data delivery of less than 10 seconds?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Kinesis Data Streams because it has higher latency when compared to Amazon Kinesis Data Firehose."
+      },
+      {
+        "id": 2,
+        "text": "Amazon Kinesis Data Firehose because it has higher latency when compared to Amazon Kinesis Data Streams."
+      },
+      {
+        "id": 3,
+        "text": "Amazon Kinesis Data Streams because it has lower latency when compared to Amazon Kinesis Data Firehose, which has a minimum buffer of 60 seconds."
+      },
+      {
+        "id": 4,
+        "text": "Amazon Kinesis Data Firehose because it has lower latency when compared to Amazon Kinesis Data Streams."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A data engineer wants to use Spark scripts to parallel batch process raw data. They need to perform extract, transform, and load (ETL) on a CSV file and load it into Parquet format. They do not have the IT and developer staff to configure and monitor the infrastructure or to write the ETL code. Which AWS service would best meet the data engineer’s needs?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon EMR"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Elastic Kubernetes Service (Amazon EKS)"
+      },
+      {
+        "id": 3,
+        "text": "AWS Batch"
+      },
+      {
+        "id": 4,
+        "text": "AWS Glue"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A stock brokerage company wants to provide a secure, scalable API solution for their AWS resources. Customers can sign up for the free service, which limits API requests per day, or the paid service for unlimited API usage. Which API type would satisfy these requirements?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon API Gateway REST API"
+      },
+      {
+        "id": 2,
+        "text": "Amazon API Gateway HTTP API"
+      },
+      {
+        "id": 3,
+        "text": "Amazon API Gateway WebSocket APIs"
+      },
+      {
+        "id": 4,
+        "text": "AWS AppSync GraphQL APIs"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What should a solutions architect do to accommodate temporary increases in demand for a data processing workload that must run uninterrupted?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy Spot Instances during periods of high demand."
+      },
+      {
+        "id": 2,
+        "text": "Deploy On-Demand Instances during periods of high demand."
+      },
+      {
+        "id": 3,
+        "text": "Increase the EC2 instance size in the EC2 reservation."
+      },
+      {
+        "id": 4,
+        "text": "Create a second EC2 reservation for additional instances."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which solution meets the requirement for private application servers needing internet access for updates?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Place the application servers in a public subnet."
+      },
+      {
+        "id": 2,
+        "text": "Place the application servers in a private subnet."
+      },
+      {
+        "id": 3,
+        "text": "Configure a NAT gateway in a public subnet."
+      },
+      {
+        "id": 4,
+        "text": "Attach an Elastic IP to the application servers."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "How can an administrator securely manage instances in a private subnet from an on-premises network?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use a VPN connection."
+      },
+      {
+        "id": 2,
+        "text": "Configure an internet gateway."
+      },
+      {
+        "id": 3,
+        "text": "Set up a bastion host in a public subnet."
+      },
+      {
+        "id": 4,
+        "text": "Assign Elastic IPs to the private instances."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "What change should be considered to address limited IP addresses in a VPC?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy instances in another VPC."
+      },
+      {
+        "id": 2,
+        "text": "Increase the CIDR block size of the VPC."
+      },
+      {
+        "id": 3,
+        "text": "Create more subnets with smaller CIDR blocks."
+      },
+      {
+        "id": 4,
+        "text": "Use Elastic IP addresses."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "How should read and write requests be separated to reduce latency in an Amazon Aurora Multi-AZ DB cluster?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Update the application to read from the Multi-AZ standby instance."
+      },
+      {
+        "id": 2,
+        "text": "Create a second Aurora database as a read replica."
+      },
+      {
+        "id": 3,
+        "text": "Enable read-through caching on the Aurora database."
+      },
+      {
+        "id": 4,
+        "text": "Create an Aurora replica and modify the application to use appropriate endpoints."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which AWS tool helps analyze and identify unintended network access in a VPC?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Flow Logs."
+      },
+      {
+        "id": 2,
+        "text": "Reachability Analyzer."
+      },
+      {
+        "id": 3,
+        "text": "Traffic Mirroring."
+      },
+      {
+        "id": 4,
+        "text": "Network Access Analyzer."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "How can traffic be quickly redirected to a standby EC2 instance in a VPC if the primary instance fails?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Configure a custom DHCP option set."
+      },
+      {
+        "id": 2,
+        "text": "Use an Elastic IP address for the standby instance."
+      },
+      {
+        "id": 3,
+        "text": "Deploy an Application Load Balancer."
+      },
+      {
+        "id": 4,
+        "text": "Attach a secondary elastic network interface to the EC2 instance."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which database service is suitable for millisecond response times and unstructured key-value data?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS."
+      },
+      {
+        "id": 2,
+        "text": "Amazon Aurora."
+      },
+      {
+        "id": 3,
+        "text": "Amazon Neptune."
+      },
+      {
+        "id": 4,
+        "text": "Amazon DynamoDB."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "What steps ensure high availability in a two-tier architecture with a database and web servers?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Add web servers to an Auto Scaling group behind an ALB."
+      },
+      {
+        "id": 2,
+        "text": "Create a database in a public subnet in a new AZ."
+      },
+      {
+        "id": 3,
+        "text": "Use an Auto Scaling group and ALB across multiple AZs."
+      },
+      {
+        "id": 4,
+        "text": "Create new subnets in the same AZ."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which AWS service includes point-in-time recovery to prevent accidental data loss?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS."
+      },
+      {
+        "id": 2,
+        "text": "Amazon DynamoDB."
+      },
+      {
+        "id": 3,
+        "text": "Amazon Redshift."
+      },
+      {
+        "id": 4,
+        "text": "Amazon Timestream."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "What AWS service provides private connectivity from an on-premises data center to AWS?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Peering."
+      },
+      {
+        "id": 2,
+        "text": "AWS Direct Connect."
+      },
+      {
+        "id": 3,
+        "text": "AWS VPN."
+      },
+      {
+        "id": 4,
+        "text": "AWS Transit Gateway."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which encryption methods allow data to remain encrypted at rest using on-premises keys?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Server-side encryption with SSE-C."
+      },
+      {
+        "id": 2,
+        "text": "Server-side encryption with SSE-KMS."
+      },
+      {
+        "id": 3,
+        "text": "Use Lambda to encrypt with customer keys."
+      },
+      {
+        "id": 4,
+        "text": "SSE with Amazon S3 managed keys (SSE-S3)."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What is the best solution to connect a VPC to an on-premises network without transmitting data over the internet?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use an Internet Gateway."
+      },
+      {
+        "id": 2,
+        "text": "Use VPC Peering."
+      },
+      {
+        "id": 3,
+        "text": "Use AWS Site-to-Site VPN."
+      },
+      {
+        "id": 4,
+        "text": "Use AWS Direct Connect."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which service ensures compliance for encrypted data in Amazon S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie."
+      },
+      {
+        "id": 2,
+        "text": "AWS Shield."
+      },
+      {
+        "id": 3,
+        "text": "AWS Config."
+      },
+      {
+        "id": 4,
+        "text": "IAM."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which AWS service enforces security policies across multiple accounts?",
+    "options": [
+      {
+        "id": 1,
+        "text": "IAM Policies."
+      },
+      {
+        "id": 2,
+        "text": "Service Control Policies (SCPs)."
+      },
+      {
+        "id": 3,
+        "text": "IAM Roles."
+      },
+      {
+        "id": 4,
+        "text": "AWS Config Rules."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which service automates sensitive data discovery in Amazon S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie."
+      },
+      {
+        "id": 2,
+        "text": "AWS Security Hub."
+      },
+      {
+        "id": 3,
+        "text": "AWS Config."
+      },
+      {
+        "id": 4,
+        "text": "Amazon Inspector."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "How can specific services be restricted across all users and roles in an AWS account?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Apply an SCP to the account."
+      },
+      {
+        "id": 2,
+        "text": "Apply an IAM policy to users."
+      },
+      {
+        "id": 3,
+        "text": "Use AWS Organizations."
+      },
+      {
+        "id": 4,
+        "text": "Use AWS Shield."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Which service provides temporary credentials with limited privileges?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS Organizations."
+      },
+      {
+        "id": 2,
+        "text": "AWS Single Sign-On."
+      },
+      {
+        "id": 3,
+        "text": "AWS Security Token Service (STS)."
+      },
+      {
+        "id": 4,
+        "text": "IAM."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A system designer wants to utilize AWS Lambda functions for a global e-commerce website. Which environments are valid Lambda runtime environments? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS customer virtual private cloud (VPC)"
+      },
+      {
+        "id": 2,
+        "text": "Lambda service virtual private cloud (VPC)"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Elastic Container Service (Amazon ECS) cluster"
+      },
+      {
+        "id": 4,
+        "text": "Amazon CloudFront edge cache"
+      },
+      {
+        "id": 5,
+        "text": "Amazon CloudFront regional edge cache"
+      }
+    ],
+    "correct_answer_ids": [
+      2,
+      5
+    ],
+    "multiple_answers": true
+  },
+  {
+    "question": "A system designer working for a bank has to choose an AWS workflow orchestration service. They choose the AWS Step Functions service. Which statements are true about AWS Step Functions workflow types? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Standard Workflows offer an exactly-once run model for workflows."
+      },
+      {
+        "id": 2,
+        "text": "Express Workflows offer synchronous and asynchronous workflows."
+      },
+      {
+        "id": 3,
+        "text": "Express Workflows are charged based on the number of state transitions."
+      },
+      {
+        "id": 4,
+        "text": "Standard Workflows are charged based on the number of requests for the workflow and its duration."
+      },
+      {
+        "id": 5,
+        "text": "Standard Workflows offer synchronous and asynchronous processing."
+      }
+    ],
+    "correct_answer_ids": [
+      2,
+      1
+    ],
+    "multiple_answers": true
+  },
+  {
+    "question": "Which are examples of microservice serverless patterns on AWS? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Application Load Balancer invokes an application running on Amazon Elastic Container Service (Amazon ECS) which stores data on an Amazon Aurora Serverless cluster."
+      },
+      {
+        "id": 2,
+        "text": "Application Load Balancer invokes an application running on Amazon Elastic Kubernetes Service (Amazon EKS) which stores data on an Amazon DynamoDB table."
+      },
+      {
+        "id": 3,
+        "text": "Amazon Kinesis invokes an AWS Lambda function and stores data on Amazon DynamoDB."
+      },
+      {
+        "id": 4,
+        "text": "Amazon API Gateway invokes an application running on AWS Fargate containers through an Application Load Balancer."
+      },
+      {
+        "id": 5,
+        "text": "Application Load Balancer invokes an application running on Amazon EC2 instances to store data on an Amazon DynamoDB table."
+      }
+    ],
+    "correct_answer_ids": [
+      3,
+      4
+    ],
+    "multiple_answers": true
+  },
+  {
+    "question": "What is the primary benefit of using Amazon CloudFront to deliver static content for a website?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Automated database backups"
+      },
+      {
+        "id": 2,
+        "text": "Increased storage capacity"
+      },
+      {
+        "id": 3,
+        "text": "Reduced latency for end users"
+      },
+      {
+        "id": 4,
+        "text": "Enhanced user authentication"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which AWS service should you use to connect multiple VPCs across different AWS Regions efficiently?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Internet Gateway"
+      },
+      {
+        "id": 2,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "AWS Transit Gateway Peering"
+      },
+      {
+        "id": 4,
+        "text": "AWS Direct Connect"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which caching strategy would be effective for a workload with frequent updates where data consistency is critical?",
+    "options": [
+      {
+        "id": 1,
+        "text": "TTL-based caching"
+      },
+      {
+        "id": 2,
+        "text": "Edge caching"
+      },
+      {
+        "id": 3,
+        "text": "Lazy loading"
+      },
+      {
+        "id": 4,
+        "text": "Write-through caching"
+      }
+    ],
+    "correct_answer_id": 4,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company has multiple VPCs within a single AWS Region that need to communicate with each other. Which AWS service provides the simplest and most cost-effective solution?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Direct Connect"
+      },
+      {
+        "id": 2,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "Internet Gateway"
+      },
+      {
+        "id": 4,
+        "text": "AWS Transit Gateway"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "A healthcare company needs to store patient information in Amazon S3 and comply with data privacy regulations. Which AWS service should they use to detect and monitor sensitive data in S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Macie"
+      },
+      {
+        "id": 2,
+        "text": "AWS CloudTrail"
+      },
+      {
+        "id": 3,
+        "text": "AWS Config"
+      },
+      {
+        "id": 4,
+        "text": "AWS Trusted Advisor"
+      }
+    ],
+    "correct_answer_id": 1,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which SQS feature should be enabled to ensure that a message is delivered exactly once and in the exact order it was sent?",
+    "options": [
+      {
+        "id": 1,
+        "text": "FIFO queue"
+      },
+      {
+        "id": 2,
+        "text": "Dead-letter queue"
+      },
+      {
+        "id": 3,
+        "text": "Standard queue"
+      },
+      {
+        "id": 4,
+        "text": "Message visibility timeout"
+      }
+    ],
+    "correct_answer_id": 1,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which AWS service is best suited for caching dynamic content like live video streaming for global viewers?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon CloudFront"
+      },
+      {
+        "id": 3,
+        "text": "AWS Lambda"
+      },
+      {
+        "id": 4,
+        "text": "Amazon ElastiCache"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company must perform asynchronous processing and implement Amazon SQS as part of a decoupled architecture. They want to reduce the number of empty responses from polling requests. What should they configure to minimize empty responses?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Increase the receive message wait time"
+      },
+      {
+        "id": 2,
+        "text": "Increase the visibility timeout"
+      },
+      {
+        "id": 3,
+        "text": "Increase the maximum receives for the redrive policy"
+      },
+      {
+        "id": 4,
+        "text": "Increase the message retention period"
+      }
+    ],
+    "correct_answer_id": 1,
+    "multiple_answers": false
+  },
+  {
+    "question": "An organization wants to enable multiple on-premises data centers to connect securely to an AWS VPC. Which AWS service should they use?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 2,
+        "text": "AWS Site-to-Site VPN with AWS VPN CloudHub"
+      },
+      {
+        "id": 3,
+        "text": "Direct Connect Gateway"
+      },
+      {
+        "id": 4,
+        "text": "AWS Transit Gateway"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which network configuration offers the lowest latency for applications communicating across multiple AZs within a region?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use an internet gateway"
+      },
+      {
+        "id": 2,
+        "text": "Deploy instances in a single Availability Zone"
+      },
+      {
+        "id": 3,
+        "text": "Use a load balancer to distribute across AZs"
+      },
+      {
+        "id": 4,
+        "text": "Rely on the AWS private network between AZs"
+      },
+      {
+        "id": 1,
+        "text": "Place the application servers in a public subnet."
+      },
+      {
+        "id": 2,
+        "text": "Place the application servers in a private subnet."
+      },
+      {
+        "id": 3,
+        "text": "Configure a NAT gateway in a public subnet."
+      },
+      {
+        "id": 4,
+        "text": "Attach an Elastic IP to the application servers."
+      },
+      {
+        "id": 5,
+        "text": "Set up an internet gateway in a private subnet."
+      }
+    ],
+    "correct_answer_id": 4,
+    "multiple_answers": false
+  },
+  {
+    "question": "What feature of Amazon RDS provides automatic failover for high availability?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Multi-AZ deployment"
+      },
+      {
+        "id": 2,
+        "text": "Read Replicas"
+      },
+      {
+        "id": 3,
+        "text": "RDS Proxy"
+      },
+      {
+        "id": 4,
+        "text": "Timestream replication"
+      }
+    ],
+    "correct_answer_id": 1,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which database service would be most suitable for a customer profile application requiring complex document data?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon DynamoDB"
+      },
+      {
+        "id": 2,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 3,
+        "text": "Amazon DocumentDB"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Aurora"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which AWS service is best suited for storing and managing IoT data over time to analyze trends?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Timestream"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Redshift"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Neptune"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "When would Amazon ElastiCache be a preferred solution over Amazon CloudFront?",
+    "options": [
+      {
+        "id": 1,
+        "text": "To cache real-time sensor data"
+      },
+      {
+        "id": 2,
+        "text": "To cache images and static files for global distribution"
+      },
+      {
+        "id": 3,
+        "text": "To cache frequently accessed database queries"
+      },
+      {
+        "id": 4,
+        "text": "To improve availability for globally distributed applications"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company wants to improve the resiliency of their AWS Direct Connect connection to their on-premises network. What is the recommended solution?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use a single Direct Connect connection"
+      },
+      {
+        "id": 2,
+        "text": "Set up multiple Direct Connect connections in different locations"
+      },
+      {
+        "id": 3,
+        "text": "Use an Internet Gateway for redundancy"
+      },
+      {
+        "id": 4,
+        "text": "Set up VPC Peering"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company plans to host a database server in a VPC and wants to isolate it from the internet. What configuration ensures this server remains private?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy the server in a public subnet with a security group allowing inbound traffic"
+      },
+      {
+        "id": 2,
+        "text": "Deploy the server in a private subnet"
+      },
+      {
+        "id": 3,
+        "text": "Attach an Elastic IP to the server"
+      },
+      {
+        "id": 4,
+        "text": "Add an internet gateway to the subnet"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "What is the best solution for large-scale data analysis with a focus on cost efficiency?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Redshift"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Timestream"
+      },
+      {
+        "id": 4,
+        "text": "Amazon DocumentDB"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "What is the most suitable database for a social networking application requiring complex relationships between data?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Neptune"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Aurora"
+      },
+      {
+        "id": 4,
+        "text": "Amazon DynamoDB"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "What is an Amazon Machine Image (AMI)?",
+    "options": [
+      {
+        "id": 1,
+        "text": "A database storage format"
+      },
+      {
+        "id": 2,
+        "text": "A security feature of IAM"
+      },
+      {
+        "id": 3,
+        "text": "A template for launching EC2 instances"
+      },
+      {
+        "id": 4,
+        "text": "A backup tool for S3"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "What feature should be enabled in Amazon S3 to protect objects from accidental overwrites and deletions?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Lifecycle Policies"
+      },
+      {
+        "id": 2,
+        "text": "Intelligent Tiering"
+      },
+      {
+        "id": 3,
+        "text": "CORS"
+      },
+      {
+        "id": 4,
+        "text": "Versioning"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "How does Amazon S3 Transfer Acceleration improve data transfer?",
+    "options": [
+      {
+        "id": 1,
+        "text": "By compressing data during transfer"
+      },
+      {
+        "id": 2,
+        "text": "By reducing storage costs"
+      },
+      {
+        "id": 3,
+        "text": "By increasing the file size limit"
+      },
+      {
+        "id": 4,
+        "text": "By using globally distributed edge locations"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "What does an S3 Lifecycle Policy allow you to do?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Store structured data"
+      },
+      {
+        "id": 2,
+        "text": "Transition objects to different storage classes over time"
+      },
+      {
+        "id": 3,
+        "text": "Create temporary buckets"
+      },
+      {
+        "id": 4,
+        "text": "Automate data backups to other AWS services"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which of the following is a key advantage of using AMIs in EC2?\nQuestion 9Answer\n\na.\nIt reduces the cost of cloud storage\n\nb.\nIt ensures repeatability and recoverability of instances\n\nc.\nIt automatically scales EC2 capacity\n\nd.\nIt offers better control over DNS configurations\nFeedback\nThe correct answer is: It ensures repeatability and recoverability of instances\nQuestion 10\nNot answered\nMarked out of 1.00\nFlag question\nQuestion text\nA global e-commerce company needs to ensure low-latency access and quick failover for its customers in case of disaster. Which AWS service can best help in this scenario?",
+    "options": [
+      {
+        "id": 1,
+        "text": "It reduces the cost of cloud storage"
+      },
+      {
+        "id": 2,
+        "text": "It ensures repeatability and recoverability of instances"
+      },
+      {
+        "id": 3,
+        "text": "It automatically scales EC2 capacity"
+      },
+      {
+        "id": 4,
+        "text": "It offers better control over DNS configurations"
+      },
+      {
+        "id": 1,
+        "text": "AWS Direct Connect"
+      },
+      {
+        "id": 2,
+        "text": "AWS Transit Gateway"
+      },
+      {
+        "id": 3,
+        "text": "Amazon S3 Transfer Acceleration"
+      },
+      {
+        "id": 4,
+        "text": "AWS Global Accelerator"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "Which of the following describes On-Demand Instances in Amazon EC2?\nQuestion 15Answer\n\na.\nInstances that are billed per second or hour with no commitment\n\nb.\nInstances that offer the highest discounts\n\nc.\nInstances only for fault-tolerant applications\n\nd.\nInstances that require long-term commitments\nFeedback\nThe correct answer is: Instances that are billed per second or hour with no commitment\nQuestion 16\nNot answered\nMarked out of 1.00\nFlag question\nQuestion text\nWhat is the maximum file size that can be stored as a single object in Amazon S3?\n\nQuestion 16Answer\n\na.\n5 TB\n\n\nb.\n1 TB\n\n\nc.\nUnlimited\n\n\nd.\n10 TB\n\nFeedback\nYour answer is incorrect.\nThe correct answer is:\n5 TB\n\nQuestion 17\nNot answered\nMarked out of 1.00\nFlag question\nQuestion text\nAn ecommerce site uses Amazon CloudFront to serve static content, but customers in certain regions report high latency. What can be done to improve the experience?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Instances that are billed per second or hour with no commitment"
+      },
+      {
+        "id": 2,
+        "text": "Instances that offer the highest discounts"
+      },
+      {
+        "id": 3,
+        "text": "Instances only for fault-tolerant applications"
+      },
+      {
+        "id": 4,
+        "text": "Instances that require long-term commitments"
+      },
+      {
+        "id": 1,
+        "text": "5 TB"
+      },
+      {
+        "id": 2,
+        "text": "1 TB"
+      },
+      {
+        "id": 3,
+        "text": "Unlimited"
+      },
+      {
+        "id": 4,
+        "text": "10 TB"
+      },
+      {
+        "id": 1,
+        "text": "Increase CloudFront TTL values"
+      },
+      {
+        "id": 2,
+        "text": "Use an RDS Read Replica in each region"
+      },
+      {
+        "id": 3,
+        "text": "Enable additional CloudFront edge locations in affected regions"
+      },
+      {
+        "id": 4,
+        "text": "Enable ElastiCache to cache dynamic content"
+      },
+      {
+        "id": 1,
+        "text": "Use a single Direct Connect connection"
+      },
+      {
+        "id": 2,
+        "text": "Set up multiple Direct Connect connections in different locations"
+      },
+      {
+        "id": 3,
+        "text": "Use an Internet Gateway for redundancy"
+      },
+      {
+        "id": 4,
+        "text": "Set up VPC Peering"
+      },
+      {
+        "id": 1,
+        "text": "AWS Organizations with Service Control Policies (SCPs)"
+      },
+      {
+        "id": 2,
+        "text": "AWS Identity and Access Management (IAM)"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Cognito"
+      },
+      {
+        "id": 4,
+        "text": "AWS Single Sign-On"
+      },
+      {
+        "id": 1,
+        "text": "Internet Gateway"
+      },
+      {
+        "id": 2,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 3,
+        "text": "AWS Transit Gateway Peering"
+      },
+      {
+        "id": 4,
+        "text": "AWS Direct Connect"
+      }
+    ],
+    "correct_answer_id": 1,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company runs a public-facing three-tier web application in a VPC across multiple Availability Zones. Amazon EC2 instances for the application tier running in private subnets need to download software patches from the internet. However, the EC2 instances cannot be directly accessible from the internet. Which actions should be taken to allow the EC2 instances to download the needed patches? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Define a custom route table with a route to the internet gateway for internet traffic and associate it with the private subnets for the application tier."
+      },
+      {
+        "id": 2,
+        "text": "Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the private subnets for the application tier."
+      },
+      {
+        "id": 3,
+        "text": "Configure a NAT gateway in a public subnet."
+      },
+      {
+        "id": 4,
+        "text": "Configure a NAT instance in a private subnet."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A company has deployed a web application in a VPC with both public and private subnets. The application servers need internet access to download updates but should not be accessible from the internet. Which solution meets these requirements? (Select TWO)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Place the application servers in a public subnet."
+      },
+      {
+        "id": 2,
+        "text": "Place the application servers in a private subnet."
+      },
+      {
+        "id": 3,
+        "text": "Configure a NAT gateway in a public subnet."
+      },
+      {
+        "id": 4,
+        "text": "Attach an Elastic IP to the application servers."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "A solutions architect wants to design a solution to save costs for Amazon EC2 instances that do not need to run during a 2-week company shutdown. The applications running on the EC2 instances store data in instance memory that must be present when the instances resume operation. Which approach should the solutions architect recommend to shut down and resume the EC2 instances?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Modify the application to store the data on instance store volumes. Reattach the volumes while restarting them."
+      },
+      {
+        "id": 2,
+        "text": "Snapshot the EC2 instances before stopping them. Restore the snapshot after restarting the instances."
+      },
+      {
+        "id": 3,
+        "text": "Run the applications on EC2 instances enabled for hibernation. Hibernate the instances before the 2-week company shutdown."
+      },
+      {
+        "id": 4,
+        "text": "Note the Availability Zone for each EC2 instance before stopping it. Restart the instances in the same Availability Zones after the 2-week company shutdown."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company runs an online voting system for a weekly live television program. During broadcasts, users submit hundreds of thousands of votes within minutes to a front-end fleet of Amazon EC2 instances that run in an Auto Scaling group. The EC2 instances write the votes to an Amazon RDS database. However, the database is unable to keep up with the requests that come from the EC2 instances. A solutions architect must design a solution that processes the votes in the most efficient manner and without downtime. Which solution meets these requirements?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use Amazon EventBridge (Amazon CloudWatch Events) to create a scheduled event to re-provision the database with larger, memory optimized instances during voting periods. When voting ends, re-provision the database to use smaller instances."
+      },
+      {
+        "id": 2,
+        "text": "Scale the database horizontally by converting it to a Multi-AZ deployment. Configure the front-end application to write to both the primary and secondary DB instances."
+      },
+      {
+        "id": 3,
+        "text": "Configure the front-end application to send votes to an Amazon Simple Queue Service (Amazon SQS) queue. Provision worker instances to read the SQS queue and write the vote information to the database."
+      },
+      {
+        "id": 4,
+        "text": "Migrate the front-end application to AWS Lambda. Use Amazon API Gateway to route user requests to the Lambda functions."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A website runs a custom web application that receives a burst of traffic each day at noon. The users upload new pictures and content daily, but have been complaining of timeouts. The architecture uses Amazon EC2 Auto Scaling groups, and the application consistently takes 1 minute to initiate upon boot up before responding to user requests. How should a solutions architect redesign the architecture to better respond to changing traffic?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Configure an Auto Scaling step scaling policy with an EC2 instance warmup condition."
+      },
+      {
+        "id": 2,
+        "text": "Configure a Network Load Balancer with a slow start configuration."
+      },
+      {
+        "id": 3,
+        "text": "Configure Amazon ElastiCache for Redis to offload direct requests from the EC2 instances."
+      },
+      {
+        "id": 4,
+        "text": "Configure Amazon CloudFront to use an Application Load Balancer as the origin."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "A company uses Amazon EC2 Reserved Instances to run its data processing workload. The nightly job typically takes 7 hours to run and must finish within a 10-hour time window. The company anticipates temporary increases in demand at the end of each month that will cause the job to run over the time limit with the capacity of the current resources. Once started, the processing job cannot be interrupted before completion. The company wants to implement a solution that would provide increased resource capacity as cost-effectively as possible. What should a solutions architect do to accomplish this?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Create a second EC2 reservation for additional instances."
+      },
+      {
+        "id": 2,
+        "text": "Increase the EC2 instance size in the EC2 reservation to support the increased workload."
+      },
+      {
+        "id": 3,
+        "text": "Deploy On-Demand Instances during periods of high demand."
+      },
+      {
+        "id": 4,
+        "text": "Deploy Spot Instances during periods of high demand."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "What is the recommended best practice for protecting compute resources in AWS?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use unmanaged services"
+      },
+      {
+        "id": 2,
+        "text": "Scale horizontally without limits"
+      },
+      {
+        "id": 3,
+        "text": "Automate compute protection"
+      },
+      {
+        "id": 4,
+        "text": "Deploy only in one Availability Zone"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which of the following describes On-Demand Instances in Amazon EC2?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Instances that are billed per second or hour with no commitment"
+      },
+      {
+        "id": 2,
+        "text": "Instances that offer the highest discounts"
+      },
+      {
+        "id": 3,
+        "text": "Instances only for fault-tolerant applications"
+      },
+      {
+        "id": 4,
+        "text": "Instances that require long-term commitments"
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "An application requires immediate notification when a new message is added to an Amazon SQS queue. Which AWS service can provide this functionality?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "AWS Lambda"
+      },
+      {
+        "id": 3,
+        "text": "Amazon CloudWatch"
+      },
+      {
+        "id": 4,
+        "text": "Amazon SNS"
+      }
+    ],
+    "correct_answer_id": 4,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company needs its VPC resources to connect to AWS S3 without incurring internet traffic costs. Which solution best achieves this?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Enable a NAT gateway"
+      },
+      {
+        "id": 2,
+        "text": "Use a Gateway VPC Endpoint"
+      },
+      {
+        "id": 3,
+        "text": "Attach an internet gateway"
+      },
+      {
+        "id": 4,
+        "text": "Assign Elastic IPs to all resources"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "What does Amazon EC2 provide?",
+    "options": [
+      {
+        "id": 1,
+        "text": "CDN services"
+      },
+      {
+        "id": 2,
+        "text": "Virtual Machines (VMs) in the cloud"
+      },
+      {
+        "id": 3,
+        "text": "Database services"
+      },
+      {
+        "id": 4,
+        "text": "DNS resolution"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "What is the best practice for encrypting data at rest in Amazon S3?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use client-side encryption only"
+      },
+      {
+        "id": 2,
+        "text": "Encrypt data manually before uploading"
+      },
+      {
+        "id": 3,
+        "text": "Store data unencrypted for faster access"
+      },
+      {
+        "id": 4,
+        "text": "Enable server-side encryption (SSE-S3) for buckets"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "Which type of content should you cache using Amazon CloudFront to optimize delivery to global users?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Database transactions"
+      },
+      {
+        "id": 2,
+        "text": "Static web content like images and videos"
+      },
+      {
+        "id": 3,
+        "text": "Real-time data feeds"
+      },
+      {
+        "id": 4,
+        "text": "Dynamic user-generated data"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company plans to run a monitoring application on an Amazon EC2 instance in a VPC. Connections are made to the EC2 instance using the instance’s private IPv4 address. A solutions architect needs to design a solution that will allow traffic to be quickly directed to a standby EC2 instance if the application fails and becomes unreachable. Which approach will meet these requirements?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Deploy an Application Load Balancer configured with a listener for the private IP address and register the primary EC2 instance with the load balancer. Upon failure, de-register the instance and register the standby EC2 instance."
+      },
+      {
+        "id": 2,
+        "text": "Associate an Elastic IP address with the network interface of the primary EC2 instance. Disassociate the Elastic IP from the primary instance upon failure and associate it with a standby EC2 instance."
+      },
+      {
+        "id": 3,
+        "text": "Attach a secondary elastic network interface to the EC2 instance configured with the private IP address. Move the network interface to the standby EC2 instance if the primary EC2 instance becomes unreachable."
+      },
+      {
+        "id": 4,
+        "text": "Configure a custom DHCP option set. Configure DHCP to assign the same private IP address to the standby EC2 instance when the primary EC2 instance fails."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "What is the best option for temporary, non-persistent storage on EC2?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon FSx"
+      },
+      {
+        "id": 2,
+        "text": "Instance Store"
+      },
+      {
+        "id": 3,
+        "text": "Amazon EBS"
+      },
+      {
+        "id": 4,
+        "text": "Amazon S3"
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "Which of the following is an Amazon S3 storage class intended for archiving data?",
+    "options": [
+      {
+        "id": 1,
+        "text": "S3 Standard"
+      },
+      {
+        "id": 2,
+        "text": "S3 One Zone-IA"
+      },
+      {
+        "id": 3,
+        "text": "S3 Intelligent-Tiering"
+      },
+      {
+        "id": 4,
+        "text": "S3 Glacier Deep Archive"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company uses Amazon SNS to send real-time notifications. Which type of architecture does Amazon SNS implement for decoupling applications?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Point-to-point messaging"
+      },
+      {
+        "id": 2,
+        "text": "Peer-to-peer messaging"
+      },
+      {
+        "id": 3,
+        "text": "Publish/subscribe messaging"
+      },
+      {
+        "id": 4,
+        "text": "Broadcast messaging"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "An EC2 instance in a private subnet needs to communicate with an Amazon RDS database in another VPC. What is the simplest solution to enable secure communication?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Configure a NAT gateway"
+      },
+      {
+        "id": 2,
+        "text": "Set up a VPN connection between the VPCs"
+      },
+      {
+        "id": 3,
+        "text": "Use a VPC peering connection"
+      },
+      {
+        "id": 4,
+        "text": "Attach an internet gateway to the private subnet"
+      }
+    ],
+    "correct_answer_id": 3,
+    "multiple_answers": false
+  },
+  {
+    "question": "An application running on AWS uses an Amazon Aurora Multi-AZ DB cluster deployment for its database. When evaluating performance metrics, a solutions architect discovered that the database reads are causing high I/O and adding latency to the write requests against the database. What should the solutions architect do to separate the read requests from the write requests?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Update the application to read from the Multi-AZ standby instance."
+      },
+      {
+        "id": 2,
+        "text": "Create an Aurora replica and modify the application to use the appropriate endpoints."
+      },
+      {
+        "id": 3,
+        "text": "Create a second Aurora database and link it to the primary database as a read replica."
+      },
+      {
+        "id": 4,
+        "text": "Enable read-through caching on the Aurora database."
+      }
+    ],
+    "correct_answer_id": 2
+  },
+  {
+    "question": "An analytics company is planning to offer a web analytics service to its users. The service will require that the users’ webpages include a JavaScript script that makes authenticated GET requests to the company’s Amazon S3 bucket. What must a solutions architect do to ensure that the script will successfully execute?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Provide the users with a signed URL for the script."
+      },
+      {
+        "id": 2,
+        "text": "Enable S3 Versioning on the S3 bucket."
+      },
+      {
+        "id": 3,
+        "text": "Enable cross-origin resource sharing (CORS) on the S3 bucket."
+      },
+      {
+        "id": 4,
+        "text": "Configure an S3 bucket policy to allow public execute privileges."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "Which feature of Amazon SNS ensures that messages are only delivered to subscribers who are currently available?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Message retention"
+      },
+      {
+        "id": 2,
+        "text": "Message filtering"
+      },
+      {
+        "id": 3,
+        "text": "Delivery policies"
+      },
+      {
+        "id": 4,
+        "text": "Dead-letter queue"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "Your VPC contains several EC2 instances in a public subnet. You want to ensure only HTTPS traffic reaches these instances. Which AWS feature should you use to enforce this rule?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Network ACLs"
+      },
+      {
+        "id": 2,
+        "text": "Security Groups"
+      },
+      {
+        "id": 3,
+        "text": "NAT Gateway"
+      },
+      {
+        "id": 4,
+        "text": "Route Table"
+      }
+    ],
+    "correct_answer_id": 2,
+    "multiple_answers": false
+  },
+  {
+    "question": "A company’s security team requires that all data stored in the cloud be encrypted at rest at all times using encryption keys stored on premises. Which encryption options meet these requirements? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Use an AWS Lambda function invoked by Amazon S3 events to encrypt the data using the customer’s keys."
+      },
+      {
+        "id": 2,
+        "text": "Use server-side encryption with Amazon S3 managed encryption keys (SSE-S3)."
+      },
+      {
+        "id": 3,
+        "text": "Use client-side encryption to provide at-rest encryption."
+      },
+      {
+        "id": 4,
+        "text": "Use server-side encryption with customer-provided encryption keys (SSE-C)."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company has a two-tier application architecture that runs in public and private subnets. Amazon EC2 instances running the web application are in the public subnet and an EC2 instance for the database runs on the private subnet. The web application instances and the database are running in a single Availability Zone (AZ). Which combination of steps should a solutions architect take to provide high availability for this architecture? (Select TWO.)",
+    "options": [
+      {
+        "id": 1,
+        "text": "Create an Amazon EC2 Auto Scaling group and Application Load Balancer spanning multiple AZs for the web application instances."
+      },
+      {
+        "id": 2,
+        "text": "Create new public and private subnets in a new AZ. Create a database using an EC2 instance in the public subnet in the new AZ. Migrate the old database contents to the new database."
+      },
+      {
+        "id": 3,
+        "text": "Create new public and private subnets in the same VPC, each in a new AZ. Create an Amazon RDS Multi-AZ DB instance in the private subnets. Migrate the old database contents to the new DB instance."
+      },
+      {
+        "id": 4,
+        "text": "Add the existing web application instances to an Auto Scaling group behind an Application Load Balancer."
+      }
+    ],
+    "correct_answer_id": 1
+  }
+]
+

@@ -78,7 +78,7 @@ export default function Quiz() {
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center p-4 transition-colors duration-200">
         <Card className="w-full max-w-md">
           <CardHeader>
-            <CardTitle className="text-2xl font-bold text-center">Welcome to the ARC Practice Exam</CardTitle>
+            <CardTitle className="text-2xl font-bold text-center">Welcome to the CC301 Practice Exam</CardTitle>
           </CardHeader>
           <CardContent>
             <Label htmlFor="name" className="text-lg">Please enter your name:</Label>

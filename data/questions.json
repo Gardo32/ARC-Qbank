@@ -3013,6 +3013,49 @@
       }
     ],
     "correct_answer_id": 1
+  },
+  {
+    "question": "An organization wants to monitor all network traffic flowing to and from specific instances in a VPC for security analysis. What feature should they enable?",
+    "options": [
+      {
+        "id": 1,
+        "text": "VPC Peering"
+      },
+      {
+        "id": 2,
+        "text": "Security Groups"
+      },
+      {
+        "id": 3,
+        "text": "VPC Flow Logs"
+      },
+      {
+        "id": 4,
+        "text": "Network Access Analyzer"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company needs a relational database that can automatically scale with a variable workload and requires minimal management. Which solution best fits these requirements?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon RDS"
+      },
+      {
+        "id": 2,
+        "text": "Amazon Aurora Serverless"
+      },
+      {
+        "id": 3,
+        "text": "Amazon DynamoDB"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Redshift"
+      }
+    ],
+    "correct_answer_id": 2
   }
 ]
-

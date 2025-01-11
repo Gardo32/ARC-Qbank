@@ -10,8 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Switch } from "@/components/ui/switch"
 import { Check, X, Sun, Moon } from 'lucide-react'
 import questionsData from '../data/questions.json'
-import arcQuestionsData from '../data/ARC.json'
-import NameInput from './NameInput'
+import { Checkbox } from "@/components/ui/checkbox"
 
 interface Option {
   id: number
@@ -21,13 +20,16 @@ interface Option {
 interface Question {
   question: string
   options: Option[]
-  correct_answer_ids: number[]
+  correct_answer_id?: number
+  correct_answer_ids?: number[]
+  multiple_answers?: boolean
 }
 
 export default function Quiz() {
   const [name, setName] = useState<string>('')
   const [examStarted, setExamStarted] = useState(false)
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
   const [selectedAnswers, setSelectedAnswers] = useState<number[]>([])
   const [showAnswer, setShowAnswer] = useState(false)
   const [score, setScore] = useState(0)
@@ -53,36 +55,46 @@ export default function Quiz() {
   }
 
   const handleAnswerSubmit = () => {
-    const currentQuestion = questions[currentQuestionIndex]
-    const isCorrect = selectedAnswers.every(answer =>
-      currentQuestion.correct_answer_ids.includes(answer)
-    ) && selectedAnswers.length === currentQuestion.correct_answer_ids.length
-
-    if (isCorrect) {
-      setScore(score + 1)
+    const currentQuestion = questions[currentQuestionIndex];
+    if (currentQuestion.multiple_answers && currentQuestion.correct_answer_ids) {
+      const correct = currentQuestion.correct_answer_ids.length === selectedAnswers.length && 
+        currentQuestion.correct_answer_ids.every(id => selectedAnswers.includes(id));
+      if (correct) {
+        setScore(score + 1);
+      } else {
+        setIncorrectCount(incorrectCount + 1);
+      }
     } else {
-      setIncorrectCount(incorrectCount + 1)
+      if (selectedAnswer === currentQuestion.correct_answer_id) {
+        setScore(score + 1);
+      } else {
+        setIncorrectCount(incorrectCount + 1);
+      }
     }
-    setShowAnswer(true)
+    setShowAnswer(true);
   }
 
   const handleNextQuestion = () => {
-    setSelectedAnswers([])
-    setShowAnswer(false)
-    setCurrentQuestionIndex(prevIndex =>
+    setSelectedAnswer(null);
+    setSelectedAnswers([]);
+    setShowAnswer(false);
+    setCurrentQuestionIndex((prevIndex) => 
       prevIndex < questions.length - 1 ? prevIndex + 1 : prevIndex
-    )
+    );
   }
 
-  const toggleDarkMode = () => setIsDarkMode(!isDarkMode)
-
-  const handleQuestionChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newIndex = parseInt(event.target.value) - 1
-    if (newIndex >= 0 && newIndex < questions.length) {
-      setCurrentQuestionIndex(newIndex)
-      setSelectedAnswers([])
-      setShowAnswer(false)
+  const handleQuestionChange = (value: string) => {
+    const newIndex = parseInt(value) - 1;
+    if (!isNaN(newIndex) && newIndex >= 0 && newIndex < questions.length) {
+      setCurrentQuestionIndex(newIndex);
+      setSelectedAnswer(null);
+      setSelectedAnswers([]);
+      setShowAnswer(false);
     }
+  };
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode)
   }
 
   if (!examStarted) {
@@ -117,8 +129,7 @@ export default function Quiz() {
     )
   }
 
-  const currentQuestion = questions[currentQuestionIndex] || { question: '', options: [], correct_answer_ids: [] }
-  const isMultipleChoice = currentQuestion.correct_answer_ids?.length > 1
+  const currentQuestion = questions[currentQuestionIndex]
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center p-4 transition-colors duration-200">
@@ -134,18 +145,18 @@ export default function Quiz() {
         <CardContent>
           <div className="flex justify-between mb-4 text-lg">
             <span>Welcome, {name}!</span>
-            <span className="flex items-center">
-              Question
-              <Input 
+            <div className="flex items-center gap-2">
+              <span>Question</span>
+              <Input
                 type="number"
-                value={currentQuestionIndex + 1}
-                onChange={handleQuestionChange}
-                className="w-16 mx-2 text-center"
                 min={1}
                 max={questions.length}
+                value={currentQuestionIndex + 1}
+                onChange={(e) => handleQuestionChange(e.target.value)}
+                className="w-[80px] text-center"
               />
-              of {questions.length}
-            </span>
+              <span>of {questions.length}</span>
+            </div>
           </div>
           <div className="flex justify-between mb-4 text-lg">
             <span className="flex items-center">
@@ -156,62 +167,72 @@ export default function Quiz() {
             </span>
           </div>
           <h2 className="text-xl font-semibold mb-4">{currentQuestion.question}</h2>
-          {isMultipleChoice ? (
-            <div className="grid grid-cols-2 gap-4">
+          {currentQuestion.multiple_answers ? (
+            <div className="space-y-2">
               {currentQuestion.options.map((option) => (
-                <div key={option.id} className="flex items-center space-x-2 mb-2">
-                  <input
-                    type="checkbox"
+                <div key={option.id} className="flex items-center space-x-2">
+                  <Checkbox 
                     id={`option-${option.id}`}
                     checked={selectedAnswers.includes(option.id)}
-                    onChange={() => {
-                      setSelectedAnswers(prevSelected =>
-                        prevSelected.includes(option.id)
-                          ? prevSelected.filter(id => id !== option.id)
-                          : [...prevSelected, option.id]
-                      )
+                    onCheckedChange={(checked) => {
+                      setSelectedAnswers(prev => 
+                        checked 
+                          ? [...prev, option.id]
+                          : prev.filter(id => id !== option.id)
+                      );
                     }}
                     disabled={showAnswer}
-                    className="h-5 w-5"
-                  />
-                  <Label htmlFor={`option-${option.id}`} className="text-lg">{option.text}</Label>
-                </div>
+                  />                  <Label htmlFor={`option-${option.id}`} className="text-lg">{option.text}</Label>                </div>
               ))}
             </div>
           ) : (
-            <RadioGroup value={selectedAnswers[0]?.toString() || ''} onValueChange={(value) => {
-              setSelectedAnswers([parseInt(value)])
-            }}>
-              <div className="grid grid-cols-2 gap-4">
-                {currentQuestion.options.map((option) => (
-                  <div key={option.id} className="flex items-center space-x-2 mb-2">
-                    <RadioGroupItem
-                      value={option.id.toString()}
-                      id={`option-${option.id}`}
-                      disabled={showAnswer}
-                      className="h-5 w-5"
-                    />
-                    <Label htmlFor={`option-${option.id}`} className="text-lg">{option.text}</Label>
-                  </div>
-                ))}
-              </div>
+            <RadioGroup value={selectedAnswer?.toString() || ''} onValueChange={(value) => setSelectedAnswer(parseInt(value))}>
+              {currentQuestion.options.map((option) => (
+                <div key={option.id} className="flex items-center space-x-2 mb-2">
+                  <RadioGroupItem value={option.id.toString()} id={`option-${option.id}`} disabled={showAnswer} />
+                  <Label htmlFor={`option-${option.id}`} className="text-lg">{option.text}</Label>
+                </div>
+              ))}
             </RadioGroup>
           )}
           {showAnswer && (
             <div className="mt-4 p-4 rounded-lg bg-gray-200 dark:bg-gray-700">
-              <p className={`text-lg font-semibold ${selectedAnswers.every(answer => currentQuestion.correct_answer_ids.includes(answer)) && selectedAnswers.length === currentQuestion.correct_answer_ids.length ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>
-                {selectedAnswers.every(answer => currentQuestion.correct_answer_ids.includes(answer)) && selectedAnswers.length === currentQuestion.correct_answer_ids.length ? (
-                  <span className="flex items-center"><Check className="h-5 w-5 mr-2" /> Correct!</span>
-                ) : (
-                  <span className="flex items-center"><X className="h-5 w-5 mr-2" /> Incorrect.</span>
-                )}
+              <p className={`text-lg font-semibold ${
+                currentQuestion.multiple_answers 
+                  ? currentQuestion.correct_answer_ids &&
+                    currentQuestion.correct_answer_ids.length === selectedAnswers.length && 
+                    currentQuestion.correct_answer_ids.every(id => selectedAnswers.includes(id))
+                    ? "text-green-600 dark:text-green-400"
+                    : "text-red-600 dark:text-red-400"
+                  : selectedAnswer === currentQuestion.correct_answer_id
+                    ? "text-green-600 dark:text-green-400"
+                    : "text-red-600 dark:text-red-400"
+              }`}>
+                {currentQuestion.multiple_answers 
+                  ? currentQuestion.correct_answer_ids &&
+                    currentQuestion.correct_answer_ids.length === selectedAnswers.length && 
+                    currentQuestion.correct_answer_ids.every(id => selectedAnswers.includes(id))
+                    ? <span className="flex items-center"><Check className="h-5 w-5 mr-2" /> Correct!</span>
+                    : <span className="flex items-center"><X className="h-5 w-5 mr-2" /> Incorrect.</span>
+                  : selectedAnswer === currentQuestion.correct_answer_id
+                    ? <span className="flex items-center"><Check className="h-5 w-5 mr-2" /> Correct!</span>
+                    : <span className="flex items-center"><X className="h-5 w-5 mr-2" /> Incorrect.</span>
+                }
               </p>
-              <p className="text-lg mt-2">Correct answers: {currentQuestion.options.filter(option => currentQuestion.correct_answer_ids.includes(option.id)).map(option => option.text).join(', ')}</p>
+              <p className="text-lg mt-2">
+                Correct answer{currentQuestion.multiple_answers ? 's' : ''}: {
+                  currentQuestion.multiple_answers && currentQuestion.correct_answer_ids
+                    ? currentQuestion.correct_answer_ids.map(id => 
+                        currentQuestion.options.find(option => option.id === id)?.text
+                      ).join(', ')
+                    : currentQuestion.options.find(option => option.id === currentQuestion.correct_answer_id)?.text
+                }
+              </p>
             </div>
           )}
         </CardContent>
         <CardFooter className="flex justify-between">
-          <Button onClick={handleAnswerSubmit} disabled={selectedAnswers.length === 0 || showAnswer} className="text-lg">
+          <Button onClick={handleAnswerSubmit} disabled={selectedAnswer === null && selectedAnswers.length === 0 || showAnswer} className="text-lg">
             Submit Answer
           </Button>
           <Button onClick={handleNextQuestion} disabled={!showAnswer || currentQuestionIndex === questions.length - 1} className="text-lg">
@@ -222,3 +243,4 @@ export default function Quiz() {
     </div>
   )
 }
+

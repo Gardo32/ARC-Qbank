@@ -2954,5 +2954,159 @@
       }
     ],
     "correct_answer_id": 2
+  },
+  {
+    "question": "What must a solutions architect do to ensure that the JavaScript script will successfully execute?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Enable cross-origin resource sharing (CORS) on the S3 bucket."
+      },
+      {
+        "id": 2,
+        "text": "Configure an S3 bucket policy to allow public execute privileges."
+      },
+      {
+        "id": 3,
+        "text": "Provide the users with a signed URL for the script."
+      },
+      {
+        "id": 4,
+        "text": "Enable S3 Versioning on the S3 bucket."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "What should the solutions architect do to separate the read requests from the write requests?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Enable read-through caching on the Aurora database."
+      },
+      {
+        "id": 2,
+        "text": "Update the application to read from the Multi-AZ standby instance."
+      },
+      {
+        "id": 3,
+        "text": "Create a second Aurora database and link it to the primary database as a read replica."
+      },
+      {
+        "id": 4,
+        "text": "Create an Aurora replica and modify the application to use the appropriate endpoints."
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A solutions architect is tasked to build a production-scale application using containers as the compute solution. They decide to use Amazon Elastic Container Service (Amazon ECS). After setting up their Amazon ECS cluster, which steps should they follow to build a production environment?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Create a PodSpec and then deploy containers on Amazon EC2 instance nodes. Specify a Kubernetes service to route traffic to the containers."
+      },
+      {
+        "id": 2,
+        "text": "Create a PodSpec and use it to launch one container on Amazon EC2 instance nodes. Add an Application Load Balancer to route traffic to the container."
+      },
+      {
+        "id": 3,
+        "text": "Create and run a task definition to deploy containers on Amazon EC2 instance nodes. Set up an Application Load Balancer to route traffic to the containers."
+      },
+      {
+        "id": 4,
+        "text": "Create a service definition. Run the service to deploy containers on Amazon EC2 instance nodes."
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A development team is troubleshooting their AWS Lambda function that connects with an Amazon RDS MySQL database in a customer’s virtual private cloud (VPC) to store data. Currently, the function times out with a “too many database connections” error. Which architecture option would fix this problem?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ensure that the Lambda function is attached to the RDS MySQL VPC. Use the Lambda service to configure an RDS connection using RDS proxy."
+      },
+      {
+        "id": 2,
+        "text": "Launch an Amazon EC2 bastion host instance and connect the Lambda function to the bastion host. Ensure the bastion host has access to the RDS database."
+      },
+      {
+        "id": 3,
+        "text": "Launch an RDS proxy service on an EC2 instance in the customer’s VPC. Connect the Lambda function to the RDS proxy service."
+      },
+      {
+        "id": 4,
+        "text": "Ensure that the Lambda function is connected to the Lambda service VPC-to-VPC NAT gateway which connects to the customer’s VPC elastic network interface."
+      }
+    ],
+    "correct_answer_id": 1
+  },
+  {
+    "question": "Your e-commerce application is experiencing high read traffic on an Amazon RDS database, impacting performance. Which solution offers the most cost-effective way to handle increased read traffic?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Place the RDS database behind a load balancer"
+      },
+      {
+        "id": 2,
+        "text": "Use Amazon CloudFront to cache RDS queries"
+      },
+      {
+        "id": 3,
+        "text": "Enable Multi-AZ for Amazon RDS"
+      },
+      {
+        "id": 4,
+        "text": "Configure Amazon ElastiCache to cache frequent queries"
+      }
+    ],
+    "correct_answer_id": 4
+  },
+  {
+    "question": "A company wants to provide users access to a mobile app that uses AWS resources without exposing AWS credentials. Which service is best suited for this use case?",
+    "options": [
+      {
+        "id": 1,
+        "text": "AWS IAM"
+      },
+      {
+        "id": 2,
+        "text": "AWS Single Sign-On"
+      },
+      {
+        "id": 3,
+        "text": "Amazon Cognito"
+      },
+      {
+        "id": 4,
+        "text": "AWS Directory Service"
+      }
+    ],
+    "correct_answer_id": 3
+  },
+  {
+    "question": "A company needs to store application error logs for later analysis. The raw data must be preserved, and the data needs to be accessed by more than one team with their specific analysis tools. Which AWS storage service would be the MOST cost-effective?",
+    "options": [
+      {
+        "id": 1,
+        "text": "Amazon Redshift"
+      },
+      {
+        "id": 2,
+        "text": "OpenSearch"
+      },
+      {
+        "id": 3,
+        "text": "Amazon S3 as a data lake"
+      },
+      {
+        "id": 4,
+        "text": "Amazon Kinesis Data Streams"
+      }
+    ],
+    "correct_answer_id": 3
   }
 ]
